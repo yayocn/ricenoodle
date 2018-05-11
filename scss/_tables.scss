@@ -1,0 +1,104 @@
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: $space-default;
+  font-size: $font-size-sm;
+
+  th,
+  td {
+    padding: $table-cell-padding;
+    line-height: $line-height;
+    vertical-align: top;
+    border-top: 1px solid $table-border-color;
+  }
+
+  thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid $table-border-color;
+  }
+
+  tbody + tbody {
+    border-top: 2px solid $table-border-color;
+  }
+
+  .table {
+    background-color: $body-bg;
+  }
+}
+
+.table-sm {
+  th,
+  td {
+    padding: $table-sm-cell-padding;
+  }
+}
+
+.table-border {
+  border: 1px solid $table-border-color;
+
+  th,
+  td {
+    border: 1px solid $table-border-color;
+  }
+
+  thead {
+    th,
+    td {
+      border-bottom-width: 2px;
+    }
+  }
+}
+
+.table-striped {
+  tbody tr:nth-of-type(odd) {
+    background-color: $table-bg-accent;
+  }
+}
+
+.table-hover {
+  tbody tr {
+    @include hover {
+      background-color: $table-bg-hover;
+    }
+  }
+}
+
+@include table-row-variant(active, $table-bg-active);
+@each $name, $value in $theme-colors {
+  @include table-row-variant($name, $value);
+}
+
+.table-responsive {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.table-dark {
+  color: $white;
+  background-color: $dark;
+
+  th,
+  td,
+  thead th {
+    border-color: lighten($dark, 7.5%);
+  }
+
+  &.table-bordered {
+    border: 0;
+  }
+
+  &.table-striped {
+    tbody tr:nth-of-type(odd) {
+      background-color: rgba($white, .05);
+    }
+  }
+
+  &.table-hover {
+    tbody tr {
+      @include hover {
+        background-color: rgba($white, .075);
+      }
+    }
+  }
+}

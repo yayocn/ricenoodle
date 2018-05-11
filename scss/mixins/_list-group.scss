@@ -1,0 +1,31 @@
+// List Groups
+
+@mixin list-group-variant($state, $background, $color) {
+  .list-group-#{$state} {
+    .list-group-item:not(.disabled) {
+      &.active,
+      &.active > a {
+        color: $color;
+        background-color: $background;
+        border-color: $background;
+
+        .list-group-item-heading,
+        .list-group-item-text {
+          color: #f5f5f5;
+        }
+      }
+    }
+  }
+}
+
+@mixin list-group-item-variant($state, $background, $color) {
+  .list-group-item-#{$state},
+  .list-group-item-#{$state} > a {
+    color: $color;
+    background-color: $background;
+
+    @include hover-focus {
+      background-color: $background;
+    }
+  }
+}

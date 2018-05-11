@@ -1,0 +1,81 @@
+// Pagination
+
+@mixin pagination-size($padding-vertical, $padding-horizontal, $font-size, $line-height, $border-radius) {
+  > li {
+    > a,
+    > span {
+      padding: $padding-vertical $padding-horizontal;
+      font-size: $font-size;
+      line-height: $line-height;
+    }
+    &:first-child {
+      > a,
+      > span {
+        @if $enable-rounded {
+          @include border-left-radius($border-radius);
+        }
+      }
+    }
+    &:last-child {
+      > a,
+      > span {
+        @if $enable-rounded {
+          @include border-right-radius($border-radius);
+        }
+      }
+    }
+  }
+}
+
+@mixin create-pagination-state($name, $color) {
+  $hover-bg: rgba($color, .2);
+  $border-color: rgba($color, .3);
+  .pagination-#{$name} {
+    > li {
+      > a,
+      > span {
+        color: $color;
+      }
+    }
+
+    > li > a,
+    > li > span {
+      @include hover {
+        color: darken($color, 12%);
+        background-color: $hover-bg;
+      }
+    }
+
+    > .active > a,
+    > .active > span {
+      @include plain-hover-focus {
+        color: $white;
+        background-color: $color;
+      }
+    }
+
+
+    &.pagination-border {
+      > li {
+        > a,
+        > span {
+          border-color: $border-color;
+        }
+      }
+
+      > li > a,
+      > li > span {
+        @include hover-focus {
+          border-color: $hover-bg;
+        }
+      }
+
+      > .active > a,
+      > .active > span {
+        @include plain-hover-focus {
+          border-color: $color;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,188 @@
+// Button groups
+//
+//
+//
+
+.btn-group,
+.btn-group-vt{
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: $space-base;
+  margin-bottom: $space-base;
+
+  > .dropdown,
+  > .btn {
+    position: relative;
+    float: left;
+
+    &:focus,
+    &:active,
+    &.active {
+      z-index: 2;
+    }
+
+    @include hover {
+      z-index: 2;
+    }
+  }
+
+  > .btn-group {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+
+.btn-group {
+  @include btn-group-brand-border('.btn-primary', $brand-primary);
+  @include btn-group-brand-border('.btn-secondary', $brand-secondary);
+  @include btn-group-brand-border('.btn-info', $brand-info);
+  @include btn-group-brand-border('.btn-success', $brand-success);
+  @include btn-group-brand-border('.btn-warning', $brand-warning);
+  @include btn-group-brand-border('.btn-danger', $brand-danger);
+}
+
+// Clear up double borders
+//
+.btn-group {
+  .dropdown,
+  .btn,
+  .btn-group {
+    margin-left: -1px;
+  }
+}
+
+// Block
+//
+.btn-group-block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  > .btn {
+    width: 100%;
+  }
+
+  > .dropdown {
+    width: 100%;
+
+    .dropdown-toggle {
+      width: 100%;
+      text-align: center;
+
+      &:after {
+        position: absolute;
+        top: 46%;
+        right: $space-base * 2;
+        margin-left: 0;
+      }
+    }
+
+    .dropdown-menu {
+      width: 100%;
+    }
+  }
+}
+
+// Btn group border
+//
+//
+.btn-group > .btn:not(:first-child):not(:last-child):not(.dropdown-toggle) {
+  @include border-radius(0);
+}
+.btn-group > .btn:first-child {
+  margin-left: 0;
+
+  &:not(:last-child):not(.dropdown-toggle) {
+    @include border-right-radius(0);
+  }
+}
+
+.btn-group > .btn:last-child:not(:first-child),
+.btn-group > .dropdown-toggle:not(:first-child) {
+  @include border-left-radius(0);
+}
+
+.btn-group > .btn-group:not(:first-child):not(:last-child) > .btn {
+  @include border-radius(0);
+}
+.btn-group > .btn-group:first-child:not(:last-child) {
+  > .btn:last-child,
+  > .dropdown-toggle {
+    @include border-right-radius(0);
+  }
+}
+.btn-group > .btn-group:last-child:not(:first-child) > .btn:first-child {
+  @include border-left-radius(0);
+}
+
+.btn-group > .btn-group {
+  float: left;
+}
+
+// Size
+//
+//
+.btn-group-sm .btn {
+  @extend .btn-sm;
+}
+.btn-group-lg .btn {
+  @extend .btn-lg;
+}
+
+
+//
+// Vertical
+//
+
+.btn-group-vt {
+  >.dropdown,
+  > .btn,
+  > .btn-group,
+  > .btn-group > .btn {
+    display: block;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  // Clear up the double borders.
+  > .dropdown,
+  > .btn,
+  > .btn-group {
+    margin-top: -1px;
+    margin-left: 0;
+  }
+}
+
+// borders
+//
+.btn-group-vt > .btn {
+  &:not(:first-child):not(:last-child) {
+    @include border-radius(0);
+  }
+  &:first-child:not(:last-child) {
+    @if $enable-rounded {
+      border-top-right-radius: $border-radius;
+    }
+    @include border-bottom-radius(0);
+  }
+  &:last-child:not(:first-child) {
+    @if $enable-rounded {
+      border-top-right-radius: $border-radius;
+    }
+    @include border-top-radius(0);
+  }
+}
+.btn-group-vt > .btn-group:not(:first-child):not(:last-child) > .btn {
+  @include border-radius(0);
+}
+.btn-group-vt > .btn-group:first-child:not(:last-child) {
+  > .btn:last-child,
+  > .dropdown-toggle {
+    @include border-bottom-radius(0);
+  }
+}
+.btn-group-vt > .btn-group:last-child:not(:first-child) > .btn:first-child {
+  @include border-top-radius(0);
+}

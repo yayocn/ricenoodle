@@ -1,0 +1,160 @@
+// Form control focus status
+//
+@mixin form-control-focus() {
+  &:focus {
+    border-color: $input-border-color-focus;
+    outline: none;
+    @include box-shadow(inset 0 0 5px rgba($brand-primary, .35), 0 0 10px rgba($brand-primary, .45));
+  }
+}
+
+// Form control status
+//
+@mixin form-control-status($state, $color) {
+  // Color the label and help text
+  & {
+    background-repeat: no-repeat;
+    border-color: $color;
+    &:focus {
+      border-color: darken($color, 10%);
+      $shadow: inset 0 5px 5px rgba(0,0,0,.075), 0 0 6px lighten($color, 20%);
+      @include box-shadow($shadow);
+    }
+  }
+  & + .form-control-feedback {
+    color: $color;
+    font-size: $font-size-xs;
+    padding: $input-padding-y-sm $input-padding-x-sm;
+  }
+}
+
+// Form fieldset status
+@mixin fieldset-status($state, $color) {
+  // Color the label and help text
+  .help-block,
+  .form-control-label,
+  .radio,
+  .checkbox,
+  .radio-inline,
+  .checkbox-inline,
+  &.radio label,
+  &.checkbox label,
+  &.radio-inline label,
+  &.checkbox-inline label  {
+    color: $color;
+  }
+  // Set the border and box shadow on specific inputs to match
+  .form-control {
+    border-color: $color;
+
+    &:focus {
+       border-color: darken($color, 10%);
+       $shadow: inset 0 5px 5px rgba(0,0,0,.075), 0 0 6px lighten($color, 20%);
+       @include box-shadow($shadow);
+    }
+  }
+
+  .input-group-addon {
+    color: $color;
+    border-color: $color;
+    background-color: lighten($color, 40%);
+  }
+
+  // Optional feedback icon
+  .form-control-feedback {
+    color: $color;
+    font-size: $font-size-xs;
+    padding: $input-padding-y-sm $input-padding-x-sm;
+  }
+}
+
+@mixin input-group-btn($color: $gray) {
+  width: 100%;
+
+  .form-control {
+    padding-right: $input-padding-x * 3;
+    width: 85%;
+  }
+
+  .input-group-btn {
+    width: 15%;
+  }
+}
+
+@mixin input-group($color: $gray) {
+  position: relative;
+  display: table;
+
+  .form-control {
+    position: relative;
+    display: table-cell;
+    vertical-align: middle;
+    margin-bottom: 0;
+    width: auto;
+    border-color: $color;
+    z-index: 2;
+  }
+
+  .input-group-btn,
+  .input-group-addon {
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .input-group-addon {
+    background-color: rgba($color, .05);
+    border: 1px solid $color;
+    color: $gray;
+    padding: $input-padding-y $input-padding-x;
+    text-align: center;
+  }
+
+  .form-control + .form-control,
+  .form-control + .input-group-addon,
+  .form-control + .input-group-btn,
+  .input-group-addon + .input-group-addon,
+  .input-group-addon + .input-group-btn,
+  .input-group-addon + .form-control,
+  .input-group-btn + .input-group-btn,
+  .input-group-btn + .input-group-addon,
+  .input-group-btn + .form-control {
+    margin-left: -1px;
+  }
+}
+
+// Radio and checkbox situations
+//
+@mixin radio-checkbox-variant($name, $color) {
+ .radio-#{$name},
+ .checkbox-#{$name} {
+   > label {
+     &:before {
+       border-color: $color;
+     }
+   }
+
+   input:not(:disabled) + label:hover:before {
+     border: 2px solid $color;
+   }
+
+   input:checked + label {
+     color: $color;
+   }
+
+   input:checked + label:before {
+     border: 2px solid $color;
+     background-color: $color;
+     color: #fff;
+   }
+ }
+}
+
+// Checkbox-switch situations
+//
+@mixin checkbox-switch-variant($name, $color) {
+  .checkbox-switch-#{$name} {
+    & input[type="checkbox"]:checked + label {
+      background-color: $color;
+    }
+  }
+}

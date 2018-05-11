@@ -1,0 +1,43 @@
+// Images
+//
+//
+//
+
+// image responsive
+//
+.img-fluid {
+  @include img-fluid();
+}
+
+// Thumbnail
+// there are borders and paddings.
+.img-thumbnail {
+  padding: $thumbnail-padding;
+  background-color: $thumbnail-bg;
+  border: $thumbnail-border-width solid $thumbnail-border-color;
+  @include border-radius($thumbnail-border-radius);
+  @include box-shadow($thumbnail-box-shadow);
+
+  // Keep them at most 100% wide
+  @include img-fluid();
+}
+
+//
+// Figures
+//
+
+.figure {
+  display: inline-block;
+  margin: 0 0 $font-scale * 1rem;
+}
+
+.figure-img {
+  margin-bottom: ($space-default / 2);
+  line-height: 1;
+}
+
+.figure-caption {
+  font-size: $figure-caption-font-size;
+  color: $figure-caption-color;
+}
+

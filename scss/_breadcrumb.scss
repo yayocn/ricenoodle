@@ -1,0 +1,46 @@
+// Navigation path
+//
+//
+//
+
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: $space-y;
+  list-style: none;
+  font-size: $breadcrumbs-font-size;
+
+  > li {
+    display: inline-block;
+
+    &::after {
+      content: $breadcrumb-divider;
+      position: relative;
+      margin: 0 $font-scale * 0.75rem;
+      color: $breadcrumb-divider-color;
+      font-size: $font-size-xs;
+    }
+
+    &:last-child {
+      color: $breadcrumb-active-color;
+
+      &::after {
+        display: none;
+      }
+    }
+
+    &.disabled {
+      cursor: default;
+      color: $breadcrumb-divider-color;
+    }
+  }
+
+  a {
+    color: $breadcrumb-color;
+
+    &:hover {
+      color: $breadcrumb-hover-color;
+    }
+  }
+
+}

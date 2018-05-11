@@ -1,0 +1,54 @@
+//
+// View
+//
+
+
+// Visibility
+//
+
+// `hidden` HTML attribute
+//
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+.visible {
+  visibility: visible !important;
+}
+
+.invisible {
+  visibility: hidden !important;
+}
+
+// Opacity
+@for $i from 0 through 10 {
+  .opacity-#{$i} {
+    opacity: $i * 0.1 !important;
+  }
+}
+
+
+// Flex
+//
+
+.flex {
+  @include display-flex($display: flex !important);
+}
+
+.flex-inline {
+  @include display-flex($display: inline-flex !important);
+}
+
+.block {
+  display: block !important;
+}
+
+.block-inline {
+  display: inline-block !important;
+}
+
+.inline {
+  display: inline !important;
+}
+

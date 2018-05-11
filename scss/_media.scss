@@ -1,0 +1,18 @@
+// Media
+// communicate and comment
+//
+//
+
+.media {
+  display: flex;
+  align-items: flex-start;
+
+  > img {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+.media-body {
+  flex: 1;
+}

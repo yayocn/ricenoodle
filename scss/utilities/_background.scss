@@ -1,0 +1,6 @@
+//
+// Background
+//
+@each $name, $value in $theme-colors {
+  @include bg-variant('.bg-#{$name}', $value);
+}
