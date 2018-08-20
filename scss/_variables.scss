@@ -223,6 +223,10 @@ $sizes: map-merge((
 $btn-padding-x:     $font-scale * .75rem;
 $btn-padding-y:     $font-scale * .375rem;
 $btn-font-weight:   normal !default;
+$btn-disabled-opacity:        .65 !default;
+$btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125) !default;
+
+$btn-link-disabled-color:     $gray-600 !default;
 
 $btn-primary-color:     $white;
 $btn-primary-bg:        $brand-primary !default;

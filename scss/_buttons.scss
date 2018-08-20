@@ -25,6 +25,17 @@
   @include hover-focus {
     text-decoration: none;
   }
+
+  &.disabled,
+  &:disabled {
+    opacity: $btn-disabled-opacity;
+    cursor: auto;
+    @include box-shadow(none);
+  }
+
+  &:not(:disabled):not(.disabled) {
+    cursor: pointer;
+  }
 }
 
 // Brand buttons
@@ -176,7 +187,7 @@ input[type="button"] {
 }
 
 a.btn.disabled,
-fieldset[disabled] a.btn {
-  // The mouse no longer listen the target element and to listen to the layer below it.
+a.btn:disabled,
+fieldset:disabled a.btn {
   pointer-events: none;
 }

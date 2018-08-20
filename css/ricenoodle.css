@@ -5772,8 +5772,20 @@ input[type="checkbox"] {
 .btn:focus, .btn:hover {
   text-decoration: none;
 }
+/* line 29, ../scss/_buttons.scss */
+.btn.disabled, .btn:disabled {
+  opacity: 0.65;
+  cursor: auto;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+/* line 36, ../scss/_buttons.scss */
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
 
-/* line 33, ../scss/_buttons.scss */
+/* line 44, ../scss/_buttons.scss */
 .btn-primary {
   color: #fff;
   background-color: #007bff;
@@ -5811,7 +5823,7 @@ input[type="checkbox"] {
   border-color: #007bff;
 }
 
-/* line 36, ../scss/_buttons.scss */
+/* line 47, ../scss/_buttons.scss */
 .btn-secondary {
   color: #fff;
   background-color: #375A7F;
@@ -5849,7 +5861,7 @@ input[type="checkbox"] {
   border-color: #375A7F;
 }
 
-/* line 39, ../scss/_buttons.scss */
+/* line 50, ../scss/_buttons.scss */
 .btn-info {
   color: #fff;
   background-color: #14adea;
@@ -5887,7 +5899,7 @@ input[type="checkbox"] {
   border-color: #14adea;
 }
 
-/* line 42, ../scss/_buttons.scss */
+/* line 53, ../scss/_buttons.scss */
 .btn-success {
   color: #fff;
   background-color: #2EC6A0;
@@ -5925,7 +5937,7 @@ input[type="checkbox"] {
   border-color: #2EC6A0;
 }
 
-/* line 45, ../scss/_buttons.scss */
+/* line 56, ../scss/_buttons.scss */
 .btn-warning {
   color: #fff;
   background-color: #ffc107;
@@ -5963,7 +5975,7 @@ input[type="checkbox"] {
   border-color: #ffc107;
 }
 
-/* line 48, ../scss/_buttons.scss */
+/* line 59, ../scss/_buttons.scss */
 .btn-danger {
   color: #fff;
   background-color: #dc3545;
@@ -6001,7 +6013,7 @@ input[type="checkbox"] {
   border-color: #dc3545;
 }
 
-/* line 51, ../scss/_buttons.scss */
+/* line 62, ../scss/_buttons.scss */
 .btn-dark {
   color: #fff;
   background-color: #212529;
@@ -6039,7 +6051,7 @@ input[type="checkbox"] {
   border-color: #212529;
 }
 
-/* line 58, ../scss/_buttons.scss */
+/* line 69, ../scss/_buttons.scss */
 .btn-outline {
   color: #dee2e6;
   background-image: none;
@@ -6076,7 +6088,7 @@ input[type="checkbox"] {
   border-color: white;
 }
 
-/* line 61, ../scss/_buttons.scss */
+/* line 72, ../scss/_buttons.scss */
 .btn-primary-outline {
   color: #007bff;
   background-image: none;
@@ -6113,7 +6125,7 @@ input[type="checkbox"] {
   border-color: #66b0ff;
 }
 
-/* line 64, ../scss/_buttons.scss */
+/* line 75, ../scss/_buttons.scss */
 .btn-secondary-outline {
   color: #375A7F;
   background-image: none;
@@ -6150,7 +6162,7 @@ input[type="checkbox"] {
   border-color: #618dbb;
 }
 
-/* line 67, ../scss/_buttons.scss */
+/* line 78, ../scss/_buttons.scss */
 .btn-info-outline {
   color: #14adea;
   background-image: none;
@@ -6187,7 +6199,7 @@ input[type="checkbox"] {
   border-color: #71cef3;
 }
 
-/* line 70, ../scss/_buttons.scss */
+/* line 81, ../scss/_buttons.scss */
 .btn-success-outline {
   color: #2EC6A0;
   background-image: none;
@@ -6224,7 +6236,7 @@ input[type="checkbox"] {
   border-color: #7ae0c7;
 }
 
-/* line 73, ../scss/_buttons.scss */
+/* line 84, ../scss/_buttons.scss */
 .btn-warning-outline {
   color: #ffc107;
   background-image: none;
@@ -6261,7 +6273,7 @@ input[type="checkbox"] {
   border-color: #ffdb6d;
 }
 
-/* line 76, ../scss/_buttons.scss */
+/* line 87, ../scss/_buttons.scss */
 .btn-danger-outline {
   color: #dc3545;
   background-image: none;
@@ -6298,7 +6310,7 @@ input[type="checkbox"] {
   border-color: #eb8c95;
 }
 
-/* line 79, ../scss/_buttons.scss */
+/* line 90, ../scss/_buttons.scss */
 .btn-dark-outline {
   color: #212529;
   background-image: none;
@@ -6335,13 +6347,13 @@ input[type="checkbox"] {
   border-color: #4e5862;
 }
 
-/* line 86, ../scss/_buttons.scss */
+/* line 97, ../scss/_buttons.scss */
 .btn-link {
   font-weight: normal;
   color: #007bff;
   border-radius: 0;
 }
-/* line 90, ../scss/_buttons.scss */
+/* line 101, ../scss/_buttons.scss */
 .btn-link:active, .btn-link.active {
   background-image: none;
   outline: 0;
@@ -6349,14 +6361,14 @@ input[type="checkbox"] {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 96, ../scss/_buttons.scss */
+/* line 107, ../scss/_buttons.scss */
 .btn-link, .btn-link:active, .btn-link.active, .btn-link:disabled, fieldset[disabled] .btn-link {
   background-color: transparent;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 104, ../scss/_buttons.scss */
+/* line 115, ../scss/_buttons.scss */
 .btn-link, .btn-link:focus, .btn-link:active {
   border-color: transparent;
 }
@@ -6372,78 +6384,79 @@ input[type="checkbox"] {
 }
 /* line 18, ../scss/mixins/_hover.scss */
 .btn-link:disabled:focus, .btn-link:disabled:hover, .btn-link.disabled:focus, .btn-link.disabled:hover, fieldset[disabled] .btn-link:focus, fieldset[disabled] .btn-link:hover {
-  color: #adb5bd;
+  color: #6c757d;
   text-decoration: none;
 }
 
-/* line 130, ../scss/_buttons.scss */
+/* line 141, ../scss/_buttons.scss */
 .btn-circle {
   -moz-border-radius: 625rem;
   -webkit-border-radius: 625rem;
   border-radius: 625rem;
 }
 
-/* line 133, ../scss/_buttons.scss */
+/* line 144, ../scss/_buttons.scss */
 .btn-round {
   -moz-border-radius: 0.25rem;
   -webkit-border-radius: 0.25rem;
   border-radius: 0.25rem;
 }
-/* line 135, ../scss/_buttons.scss */
+/* line 146, ../scss/_buttons.scss */
 .btn-round.btn-lg, .btn-group-lg .btn-round.btn {
   -moz-border-radius: 0.3rem;
   -webkit-border-radius: 0.3rem;
   border-radius: 0.3rem;
 }
-/* line 138, ../scss/_buttons.scss */
+/* line 149, ../scss/_buttons.scss */
 .btn-round.btn-sm, .btn-group-sm .btn-round.btn {
   -moz-border-radius: 0.2rem;
   -webkit-border-radius: 0.2rem;
   border-radius: 0.2rem;
 }
 
-/* line 146, ../scss/_buttons.scss */
+/* line 157, ../scss/_buttons.scss */
 .btn-hg {
   padding: 0.84792rem 1.25rem;
   font-size: 1.25rem;
   line-height: 0.6875;
 }
 
-/* line 149, ../scss/_buttons.scss */
+/* line 160, ../scss/_buttons.scss */
 .btn-lg, .btn-group-lg .btn {
   padding: 0.3125rem 0.625rem;
   font-size: 1rem;
   line-height: 1.5;
 }
 
-/* line 152, ../scss/_buttons.scss */
+/* line 163, ../scss/_buttons.scss */
 .btn-sm, .btn-group-sm .btn {
   padding: 0.15625rem 0.3125rem;
   font-size: 0.75rem;
   line-height: 1.5;
 }
 
-/* line 159, ../scss/_buttons.scss */
+/* line 170, ../scss/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%;
 }
 
-/* line 165, ../scss/_buttons.scss */
+/* line 176, ../scss/_buttons.scss */
 .btn-block + .btn-block {
   margin-top: 5px;
 }
 
-/* line 173, ../scss/_buttons.scss */
+/* line 184, ../scss/_buttons.scss */
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
 
-/* line 178, ../scss/_buttons.scss */
+/* line 189, ../scss/_buttons.scss */
 a.btn.disabled,
-fieldset[disabled] a.btn {
+a.btn:disabled,
+fieldset:disabled a.btn {
   pointer-events: none;
 }
 
@@ -9701,7 +9714,7 @@ progress[value]::-moz-progress-bar {
 .input-group-hg > .input-group-btn > .btn {
   padding: 0.84792rem 1.25rem;
   font-size: 1.25rem;
-  line-height: 0.6875;
+  line-height: 1.5;
 }
 
 /* line 111, ../scss/_input-group.scss */

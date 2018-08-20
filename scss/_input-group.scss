@@ -81,7 +81,7 @@
 %form-control-hg {
   padding: $input-padding-y-hg $input-padding-x-hg;
   font-size: $font-size-hg;
-  line-height: $input-hg-line-height;
+  line-height: $line-height;
   @if $enable-rounded {
     @include border-radius($input-border-radius-lg);
   }
