@@ -3714,6 +3714,35 @@ a.text-transparent:focus, a.text-transparent:hover {
   align-self: stretch !important;
 }
 
+/* line 4, ../scss/utilities/_close.scss */
+.close {
+  float: right;
+  font-size: 1.3125rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  opacity: .5;
+}
+/* line 18, ../scss/mixins/_hover.scss */
+.close:focus, .close:hover {
+  color: #000;
+  text-decoration: none;
+  opacity: .75;
+}
+/* line 19, ../scss/utilities/_close.scss */
+.close:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}
+
+/* line 24, ../scss/utilities/_close.scss */
+button.close {
+  padding: 0;
+  background-color: transparent;
+  border: 0;
+  -webkit-appearance: none;
+}
+
 /* line 13, ../scss/_grid.scss */
 .container {
   width: 100%;
@@ -8769,35 +8798,6 @@ nav,
   -moz-border-radius: 0;
   -webkit-border-radius: 0;
   border-radius: 0;
-}
-
-/* line 4, ../scss/_close.scss */
-.close {
-  float: right;
-  font-size: 1.3125rem;
-  font-weight: 700;
-  line-height: 1;
-  color: #000;
-  text-shadow: 0 1px 0 #fff;
-  opacity: .5;
-}
-/* line 18, ../scss/mixins/_hover.scss */
-.close:focus, .close:hover {
-  color: #000;
-  text-decoration: none;
-  opacity: .75;
-}
-/* line 19, ../scss/_close.scss */
-.close:not(:disabled):not(.disabled) {
-  cursor: pointer;
-}
-
-/* line 24, ../scss/_close.scss */
-button.close {
-  padding: 0;
-  background-color: transparent;
-  border: 0;
-  -webkit-appearance: none;
 }
 
 /* line 4, ../scss/_card.scss */
