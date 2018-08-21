@@ -127,24 +127,23 @@ h1 {
 
 /* line 176, ../scss/_normalize.scss */
 p {
-  margin-top: 0;
-  margin-bottom: 0.875rem;
+  margin: 1em 0;
 }
 
-/* line 182, ../scss/_normalize.scss */
+/* line 181, ../scss/_normalize.scss */
 abbr[title],
 abbr[data-original-title] {
   cursor: help;
   border-bottom: 1px dotted #adb5bd;
 }
 
-/* line 188, ../scss/_normalize.scss */
+/* line 187, ../scss/_normalize.scss */
 address {
   margin-bottom: 1rem;
   font-style: normal;
 }
 
-/* line 193, ../scss/_normalize.scss */
+/* line 192, ../scss/_normalize.scss */
 ol,
 ul,
 dl {
@@ -153,7 +152,7 @@ dl {
   padding: 0;
 }
 
-/* line 201, ../scss/_normalize.scss */
+/* line 200, ../scss/_normalize.scss */
 ol ol,
 ul ul,
 ol ul,
@@ -161,18 +160,18 @@ ul ol {
   margin-bottom: 0;
 }
 
-/* line 211, ../scss/_normalize.scss */
+/* line 210, ../scss/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
 }
 
-/* line 220, ../scss/_normalize.scss */
+/* line 219, ../scss/_normalize.scss */
 small {
   font-size: 80%;
 }
 
-/* line 228, ../scss/_normalize.scss */
+/* line 227, ../scss/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -181,45 +180,45 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 236, ../scss/_normalize.scss */
+/* line 235, ../scss/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 240, ../scss/_normalize.scss */
+/* line 239, ../scss/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 251, ../scss/_normalize.scss */
+/* line 250, ../scss/_normalize.scss */
 img {
   border: 0;
 }
 
-/* line 259, ../scss/_normalize.scss */
+/* line 258, ../scss/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
 
-/* line 270, ../scss/_normalize.scss */
+/* line 269, ../scss/_normalize.scss */
 figure {
   margin: 0 0 1rem;
 }
 
-/* line 278, ../scss/_normalize.scss */
+/* line 277, ../scss/_normalize.scss */
 hr {
   box-sizing: border-box;
   height: 0;
 }
 
-/* line 287, ../scss/_normalize.scss */
+/* line 286, ../scss/_normalize.scss */
 pre {
   overflow: auto;
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-/* line 297, ../scss/_normalize.scss */
+/* line 296, ../scss/_normalize.scss */
 code,
 kbd,
 pre,
@@ -228,18 +227,18 @@ samp {
   font-size: 1em;
 }
 
-/* line 309, ../scss/_normalize.scss */
+/* line 308, ../scss/_normalize.scss */
 img {
   vertical-align: middle;
 }
 
-/* line 331, ../scss/_normalize.scss */
+/* line 330, ../scss/_normalize.scss */
 label {
   display: inline-block;
   vertical-align: middle;
 }
 
-/* line 337, ../scss/_normalize.scss */
+/* line 336, ../scss/_normalize.scss */
 button,
 input,
 optgroup,
@@ -252,12 +251,12 @@ textarea {
   line-height: inherit;
 }
 
-/* line 349, ../scss/_normalize.scss */
+/* line 348, ../scss/_normalize.scss */
 textarea {
   resize: vertical;
 }
 
-/* line 357, ../scss/_normalize.scss */
+/* line 356, ../scss/_normalize.scss */
 button {
   overflow: visible;
 }
@@ -266,18 +265,18 @@ button:focus, button:hover {
   outline: 0;
 }
 
-/* line 365, ../scss/_normalize.scss */
+/* line 364, ../scss/_normalize.scss */
 [role="button"] {
   cursor: pointer;
 }
 
-/* line 376, ../scss/_normalize.scss */
+/* line 375, ../scss/_normalize.scss */
 button,
 select {
   text-transform: none;
 }
 
-/* line 389, ../scss/_normalize.scss */
+/* line 388, ../scss/_normalize.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -286,50 +285,50 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 401, ../scss/_normalize.scss */
+/* line 400, ../scss/_normalize.scss */
 button[disabled],
 html input[disabled] {
   cursor: default;
 }
 
-/* line 410, ../scss/_normalize.scss */
+/* line 409, ../scss/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
   padding: 0;
 }
 
-/* line 421, ../scss/_normalize.scss */
+/* line 420, ../scss/_normalize.scss */
 input {
   line-height: normal;
 }
 
-/* line 433, ../scss/_normalize.scss */
+/* line 432, ../scss/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
   padding: 0;
 }
 
-/* line 445, ../scss/_normalize.scss */
+/* line 444, ../scss/_normalize.scss */
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
-/* line 455, ../scss/_normalize.scss */
+/* line 454, ../scss/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: none;
   box-sizing: border-box;
 }
 
-/* line 466, ../scss/_normalize.scss */
+/* line 465, ../scss/_normalize.scss */
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
-/* line 475, ../scss/_normalize.scss */
+/* line 474, ../scss/_normalize.scss */
 fieldset {
   min-width: 0;
   padding: 0;
@@ -337,7 +336,7 @@ fieldset {
   border: 0;
 }
 
-/* line 487, ../scss/_normalize.scss */
+/* line 486, ../scss/_normalize.scss */
 legend {
   display: block;
   width: 100%;
@@ -348,24 +347,24 @@ legend {
   border: none;
 }
 
-/* line 501, ../scss/_normalize.scss */
+/* line 500, ../scss/_normalize.scss */
 textarea {
   overflow: auto;
 }
 
-/* line 510, ../scss/_normalize.scss */
+/* line 509, ../scss/_normalize.scss */
 optgroup {
   font-weight: bold;
 }
 
-/* line 521, ../scss/_normalize.scss */
+/* line 520, ../scss/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
   background-color: transparent;
 }
 
-/* line 527, ../scss/_normalize.scss */
+/* line 526, ../scss/_normalize.scss */
 caption {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -374,18 +373,18 @@ caption {
   caption-side: top;
 }
 
-/* line 535, ../scss/_normalize.scss */
+/* line 534, ../scss/_normalize.scss */
 td,
 th {
   padding: 0;
 }
 
-/* line 540, ../scss/_normalize.scss */
+/* line 539, ../scss/_normalize.scss */
 th {
   text-align: left;
 }
 
-/* line 544, ../scss/_normalize.scss */
+/* line 543, ../scss/_normalize.scss */
 output {
   display: inline-block;
 }
