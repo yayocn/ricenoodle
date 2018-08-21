@@ -257,12 +257,9 @@ select.form-control {
 // Situation
 //
 //
-@include radio-checkbox-variant('primary', $brand-primary);
-@include radio-checkbox-variant('secondary', $brand-secondary);
-@include radio-checkbox-variant('success', $brand-success);
-@include radio-checkbox-variant('info', $brand-info);
-@include radio-checkbox-variant('warning', $brand-warning);
-@include radio-checkbox-variant('danger', $brand-danger);
+@each $name, $value in $theme-colors {
+  @include radio-checkbox-variant('#{$name}', $value);
+}
 
 // switch checkbox
 //
@@ -366,11 +363,9 @@ select.form-control {
 }
 // Situation
 //
-@include checkbox-switch-variant('secondary',$brand-secondary);
-@include checkbox-switch-variant('success',$brand-success);
-@include checkbox-switch-variant('info',$brand-info);
-@include checkbox-switch-variant('warning',$brand-warning);
-@include checkbox-switch-variant('danger',$brand-danger);
+@each $name, $value in $theme-colors {
+  @include checkbox-switch-variant('#{$name}', $value);
+}
 
 // Disabled
 //
