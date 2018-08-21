@@ -419,7 +419,15 @@ input[type="checkbox"] {
     text-align: center;
     color: #fff;
     font-size: 14px;
-    font-weight: 400;//
+    font-weight: 400;
+  }
+
+  &.disabled .file-surface,
+  &:disabled .file-surface,
+  input[type="file"].disabled + .file-surface,
+  input[type="file"]:disabled + .file-surface {
+    cursor: default;
+    opacity: $btn-disabled-opacity;
   }
 }
 
