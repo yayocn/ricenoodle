@@ -60,7 +60,6 @@ $theme-colors: (
   muted: $muted,
   dark: $dark,
   black: $black,
-  transparent: $transparent,
 ) !default;
 
 $yiq-contrasted-threshold: 150 !default;
@@ -226,39 +225,9 @@ $btn-font-weight:   normal !default;
 $btn-disabled-opacity:        .65 !default;
 $btn-active-box-shadow:       inset 0 3px 5px rgba($black, .125) !default;
 
-$btn-link-disabled-color:     $gray-600 !default;
-
-$btn-primary-color:     $white;
-$btn-primary-bg:        $brand-primary !default;
-$btn-primary-border:    $btn-primary-bg !default;
-
-$btn-secondary-color:     $white;
-$btn-secondary-bg:        $brand-secondary !default;
-$btn-secondary-border:    $btn-secondary-bg !default;
-
 $btn-default-color:     $gray-dark !default;
 $btn-default-bg:        $white;
 $btn-default-border:    $border-color;
-
-$btn-info-color:        $white;
-$btn-info-bg:           $brand-info !default;
-$btn-info-border:       $btn-info-bg !default;
-
-$btn-success-color:     $white;
-$btn-success-bg:        $brand-success !default;
-$btn-success-border:    $btn-success-bg !default;
-
-$btn-warning-color:     $white;
-$btn-warning-bg:        $brand-warning !default;
-$btn-warning-border:    $btn-warning-bg !default;
-
-$btn-danger-color:      $white;
-$btn-danger-bg:         $brand-danger !default;
-$btn-danger-border:     $btn-danger-bg !default;
-
-$btn-dark-color:      $white !default;
-$btn-dark-bg:         $dark !default;
-$btn-dark-border:     $btn-dark-bg !default;
 
 $btn-link-disabled-color:     $gray-light !default;
 
@@ -271,6 +240,20 @@ $btn-padding-y-lg:      $font-scale * .5rem !default;
 $btn-padding-x-hg:      $font-scale * 2rem !default;
 $btn-padding-y-hg:      $font-scale * 1.356667rem !default;
 $btn-hg-line-height:    $font-scale * 1.1 !default;
+
+$btn-theme: (
+                (primary, $white, $brand-primary, $brand-primary),
+                (secondary, $white, $brand-secondary, $brand-secondary),
+                (success, $white, $brand-success, $brand-success),
+                (info, $white, $brand-info, $brand-info),
+                (warning, $white, $brand-warning, $brand-warning),
+                (danger, $white, $brand-danger, $brand-danger),
+                (white, $black, $white, $white),
+                (light, $white, $light, $light),
+                (muted, $white, $muted, $muted),
+                (dark, $white, $dark, $dark),
+                (black, $white, $black, $black),
+);
 
 //
 // Grid
@@ -392,33 +375,19 @@ $input-group-addon-border-color: $input-border-color !default;
 
 // Situation
 //
-$input-group-primary-color:      $brand-primary !default;
-$input-group-primary-bg:         $white;
-$input-group-primary-border:     $brand-primary !default;
-
-$input-group-secondary-color:      $muted;
-$input-group-secondary-bg:         $white;
-$input-group-secondary-border:     $brand-secondary !default;
-
-$input-group-success-color:      $brand-success !default;
-$input-group-success-bg:         $white;
-$input-group-success-border:     $brand-success !default;
-
-$input-group-info-color:      $brand-info !default;
-$input-group-info-bg:         $white;
-$input-group-info-border:     $brand-info !default;
-
-$input-group-warning-color:      $brand-warning !default;
-$input-group-warning-bg:         $white;
-$input-group-warning-border:     $brand-warning !default;
-
-$input-group-danger-color:      $brand-danger !default;
-$input-group-danger-bg:         $white;
-$input-group-danger-border:     $brand-danger !default;
-
-$input-group-dark-color:      $dark !default;
-$input-group-dark-bg:         $white !default;
-$input-group-dark-border:     $dark !default;
+$input-group-theme: (
+                (primary, $brand-primary, $white, $brand-primary),
+                (secondary, $brand-secondary, $white, $brand-secondary),
+                (success, $brand-success, $white, $brand-success),
+                (info, $brand-info, $white, $brand-info),
+                (warning, $brand-warning, $white, $brand-warning),
+                (danger, $brand-danger, $white, $brand-danger),
+                (white, $white, $transparent, $white),
+                (light, $light, $white, $light),
+                (muted, $muted, $white, $muted),
+                (dark, $dark, $white, $dark),
+                (black, $black, $white, $black),
+);
 
 // Directions
 //
@@ -777,8 +746,8 @@ $alert-border-radius:               $border-radius !default;
 $alert-link-font-weight:            $font-weight-bold !default;
 $alert-border-width:                $border-width !default;
 
-$alert-bg-level:                    -10 !default;
-$alert-border-level:                -9 !default;
+$alert-bg-level:                    -7 !default;
+$alert-border-level:                -6 !default;
 $alert-color-level:                 6 !default;
 
 // Progress bars
@@ -789,13 +758,19 @@ $progress-color:              $white !default;
 $progress-value-color:        $gray !default;
 $progress-border-radius:      $border-radius !default;
 
-$progress-value-primary-bg:     $brand-primary !default;
-$progress-value-secondary-bg:   $brand-secondary!default;
-$progress-value-success-bg:     $brand-success !default;
-$progress-value-warning-bg:     $brand-warning !default;
-$progress-value-danger-bg:      $brand-danger !default;
-$progress-value-info-bg:        $brand-info !default;
-$progress-value-dark-bg:        $dark !default;
+$progress-theme: (
+        primary: $brand-primary,
+        secondary: $brand-secondary,
+        success: $brand-success,
+        info: $brand-info,
+        warning: $brand-warning,
+        danger: $brand-danger,
+        white: $white,
+        light: $light,
+        muted: $muted,
+        dark: $dark,
+        black: $black,
+) !default;
 
 $progress-running-bg:         rgba(255, 255, 255, .5);
 
@@ -835,6 +810,20 @@ $list-group-link-heading-color: $gray-800 !default;
 
 $list-group-item-heading-color:   $gray-800;
 $list-group-item-text-color:      $gray-600;
+
+$list-group-theme: (
+                (primary, $brand-primary, $list-group-style-color),
+                (secondary, $brand-secondary, $list-group-style-color),
+                (success, $brand-success, $list-group-style-color),
+                (info, $brand-info, $list-group-style-color),
+                (warning, $brand-warning, $list-group-style-color),
+                (danger, $brand-danger, $list-group-style-color),
+                (white, $transparent, $white),
+                (light, $light, $list-group-style-color),
+                (muted, $muted, $list-group-style-color),
+                (dark, $dark, $list-group-style-color),
+                (black, $black, $list-group-style-color),
+);
 
 // Thumbnails
 //
@@ -943,16 +932,7 @@ $loader-win-roll-height-lg:        $loader-win-roll-width-lg;
 $loader-dot-sm:                 5px !default;
 $loader-dot-lg:                 12px !default;
 
-$loader-colors: (
-  primary: $brand-primary,
-  secondary: $brand-secondary,
-  success: $brand-success,
-  info: $brand-info,
-  warning: $brand-warning,
-  danger: $brand-danger,
-  muted: $muted,
-  dark: $dark
-);
+$loader-colors: $theme-colors;
 
 // Close
 

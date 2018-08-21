@@ -1,6 +1,9 @@
 //
 // Background
 //
-@each $name, $value in $theme-colors {
+$bg-list: () !default;
+$bg-list: map-merge($theme-colors, ("transparent": $transparent));
+
+@each $name, $value in $bg-list {
   @include bg-variant('.bg-#{$name}', $value);
 }

@@ -2,6 +2,11 @@
   .input-group-addon,
   .form-control {
     border-color: $border-color;
+    background-color: $bg;
+
+    @if $color == $white {
+      color: $color;
+    }
   }
 
   .input-group-addon {

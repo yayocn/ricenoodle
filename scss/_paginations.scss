@@ -136,10 +136,6 @@
 
 // situation
 //
-@include create-pagination-state(primary, $brand-primary);
-@include create-pagination-state(secondary, $brand-secondary);
-@include create-pagination-state(info, $brand-info);
-@include create-pagination-state(success, $brand-success);
-@include create-pagination-state(warning, $brand-warning);
-@include create-pagination-state(danger, $brand-danger);
-@include create-pagination-state(dark, $dark);
+@each $name, $value in $theme-colors {
+  @include create-pagination-state($name, $value);
+}

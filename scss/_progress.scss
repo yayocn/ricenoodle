@@ -128,16 +128,7 @@ progress[value] {
 //
 // Colors
 //
-$state-list: (
-  primary: $progress-value-primary-bg,
-  secondary: $progress-value-secondary-bg,
-  success: $progress-value-success-bg,
-  info: $progress-value-info-bg,
-  warning: $progress-value-warning-bg,
-  danger: $progress-value-danger-bg,
-  dark: $progress-value-dark-bg,
-) !default;
-@each $name, $value in $state-list {
+@each $name, $value in $progress-theme {
   .progress-#{$name} {
     @include progress-variant($value);
   }

@@ -30,10 +30,6 @@ $align-list: (left, right, center, justify);
 .text-paper { font-family: $font-family-serif !important; }
 .text-letter { font-family: $font-family-monospace !important; }
 
-.text-transparent {
-  @include text-hidden();
-}
-
 // Colors
 //
 @each $name, $value in $theme-colors {

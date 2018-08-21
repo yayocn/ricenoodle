@@ -13,7 +13,9 @@
 .border-bottom-0 { border-bottom: 0 !important; }
 .border-left-0   { border-left: 0 !important; }
 
-@each $color, $value in $theme-colors {
+$border-list: () !default;
+$border-list: map-merge($theme-colors, ("transparent": $transparent));
+@each $color, $value in $border-list {
   .border-#{$color} {
     border-color: $value !important;
   }

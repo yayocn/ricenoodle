@@ -440,116 +440,116 @@ output {
   border-left: 0 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-primary {
   border-color: #007bff !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-secondary {
   border-color: #375A7F !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-success {
   border-color: #2EC6A0 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-info {
   border-color: #14adea !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-warning {
   border-color: #ffc107 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-danger {
   border-color: #dc3545 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-white {
   border-color: #fff !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-light {
   border-color: #dee2e6 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-muted {
   border-color: #6c757d !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-dark {
   border-color: #212529 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-black {
   border-color: #000 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-transparent {
   border-color: transparent !important;
 }
 
-/* line 22, ../scss/utilities/_border.scss */
+/* line 24, ../scss/utilities/_border.scss */
 .border-round-0 {
   border-radius: 0 !important;
 }
 
-/* line 23, ../scss/utilities/_border.scss */
+/* line 25, ../scss/utilities/_border.scss */
 .border-round-circle {
   border-radius: 625rem !important;
 }
 
-/* line 24, ../scss/utilities/_border.scss */
+/* line 26, ../scss/utilities/_border.scss */
 .border-round {
   border-radius: 0.25rem !important;
 }
 
-/* line 25, ../scss/utilities/_border.scss */
+/* line 27, ../scss/utilities/_border.scss */
 .border-round-top {
   border-top-left-radius: 0.25rem !important;
   border-top-right-radius: 0.25rem !important;
 }
 
-/* line 29, ../scss/utilities/_border.scss */
+/* line 31, ../scss/utilities/_border.scss */
 .border-round-right {
   border-top-right-radius: 0.25rem !important;
   border-bottom-right-radius: 0.25rem !important;
 }
 
-/* line 33, ../scss/utilities/_border.scss */
+/* line 35, ../scss/utilities/_border.scss */
 .border-round-bottom {
   border-bottom-right-radius: 0.25rem !important;
   border-bottom-left-radius: 0.25rem !important;
 }
 
-/* line 37, ../scss/utilities/_border.scss */
+/* line 39, ../scss/utilities/_border.scss */
 .border-round-left {
   border-top-left-radius: 0.25rem !important;
   border-bottom-left-radius: 0.25rem !important;
 }
 
-/* line 51, ../scss/utilities/_border.scss */
+/* line 53, ../scss/utilities/_border.scss */
 .border-dot {
   border-style: dotted !important;
 }
 
-/* line 51, ../scss/utilities/_border.scss */
+/* line 53, ../scss/utilities/_border.scss */
 .border-dash {
   border-style: dashed !important;
 }
 
-/* line 51, ../scss/utilities/_border.scss */
+/* line 53, ../scss/utilities/_border.scss */
 .border-solid {
   border-style: solid !important;
 }
@@ -942,15 +942,7 @@ a.bg-transparent:focus, a.bg-transparent:hover {
   font-family: Menlo, Monaco, Consolas, "Courier New", Monospace !important;
 }
 
-/* line 33, ../scss/utilities/_text.scss */
-.text-transparent {
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
-}
-
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-primary {
   color: #007bff !important;
 }
@@ -960,7 +952,7 @@ a.text-primary:focus, a.text-primary:hover {
   color: #0062cc !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-secondary {
   color: #375A7F !important;
 }
@@ -970,7 +962,7 @@ a.text-secondary:focus, a.text-secondary:hover {
   color: #28415b !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-success {
   color: #2EC6A0 !important;
 }
@@ -980,7 +972,7 @@ a.text-success:focus, a.text-success:hover {
   color: #249d7f !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-info {
   color: #14adea !important;
 }
@@ -990,7 +982,7 @@ a.text-info:focus, a.text-info:hover {
   color: #108abb !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-warning {
   color: #ffc107 !important;
 }
@@ -1000,7 +992,7 @@ a.text-warning:focus, a.text-warning:hover {
   color: #d39e00 !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-danger {
   color: #dc3545 !important;
 }
@@ -1010,7 +1002,7 @@ a.text-danger:focus, a.text-danger:hover {
   color: #bd2130 !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-white {
   color: #fff !important;
 }
@@ -1020,7 +1012,7 @@ a.text-white:focus, a.text-white:hover {
   color: #e6e6e6 !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-light {
   color: #dee2e6 !important;
 }
@@ -1030,7 +1022,7 @@ a.text-light:focus, a.text-light:hover {
   color: #c1c9d0 !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-muted {
   color: #6c757d !important;
 }
@@ -1040,7 +1032,7 @@ a.text-muted:focus, a.text-muted:hover {
   color: #545b62 !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-dark {
   color: #212529 !important;
 }
@@ -1050,7 +1042,7 @@ a.text-dark:focus, a.text-dark:hover {
   color: #0a0c0d !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-black {
   color: #000 !important;
 }
@@ -1058,16 +1050,6 @@ a.text-dark:focus, a.text-dark:hover {
 /* line 18, ../scss/mixins/_hover.scss */
 a.text-black:focus, a.text-black:hover {
   color: black !important;
-}
-
-/* line 40, ../scss/utilities/_text.scss */
-.text-transparent {
-  color: transparent !important;
-}
-
-/* line 18, ../scss/mixins/_hover.scss */
-a.text-transparent:focus, a.text-transparent:hover {
-  color: transparent !important;
 }
 
 /* line 6, ../scss/utilities/_spacer.scss */

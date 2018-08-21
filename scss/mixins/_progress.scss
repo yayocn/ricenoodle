@@ -15,4 +15,11 @@
       background-color: $color;
     }
   }
+
+  @if $color == $white {
+    background-color: $transparent;
+    .progress-value {
+      color: $dark;
+    }
+  }
 }

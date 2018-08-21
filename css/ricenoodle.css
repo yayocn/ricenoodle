@@ -600,116 +600,116 @@ dd {
   border-left: 0 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-primary {
   border-color: #007bff !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-secondary {
   border-color: #375A7F !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-success {
   border-color: #2EC6A0 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-info {
   border-color: #14adea !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-warning {
   border-color: #ffc107 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-danger {
   border-color: #dc3545 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-white {
   border-color: #fff !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-light {
   border-color: #dee2e6 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-muted {
   border-color: #6c757d !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-dark {
   border-color: #212529 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-black {
   border-color: #000 !important;
 }
 
-/* line 17, ../scss/utilities/_border.scss */
+/* line 19, ../scss/utilities/_border.scss */
 .border-transparent {
   border-color: transparent !important;
 }
 
-/* line 22, ../scss/utilities/_border.scss */
+/* line 24, ../scss/utilities/_border.scss */
 .border-round-0 {
   border-radius: 0 !important;
 }
 
-/* line 23, ../scss/utilities/_border.scss */
+/* line 25, ../scss/utilities/_border.scss */
 .border-round-circle {
   border-radius: 625rem !important;
 }
 
-/* line 24, ../scss/utilities/_border.scss */
+/* line 26, ../scss/utilities/_border.scss */
 .border-round {
   border-radius: 0.25rem !important;
 }
 
-/* line 25, ../scss/utilities/_border.scss */
+/* line 27, ../scss/utilities/_border.scss */
 .border-round-top {
   border-top-left-radius: 0.25rem !important;
   border-top-right-radius: 0.25rem !important;
 }
 
-/* line 29, ../scss/utilities/_border.scss */
+/* line 31, ../scss/utilities/_border.scss */
 .border-round-right {
   border-top-right-radius: 0.25rem !important;
   border-bottom-right-radius: 0.25rem !important;
 }
 
-/* line 33, ../scss/utilities/_border.scss */
+/* line 35, ../scss/utilities/_border.scss */
 .border-round-bottom {
   border-bottom-right-radius: 0.25rem !important;
   border-bottom-left-radius: 0.25rem !important;
 }
 
-/* line 37, ../scss/utilities/_border.scss */
+/* line 39, ../scss/utilities/_border.scss */
 .border-round-left {
   border-top-left-radius: 0.25rem !important;
   border-bottom-left-radius: 0.25rem !important;
 }
 
-/* line 51, ../scss/utilities/_border.scss */
+/* line 53, ../scss/utilities/_border.scss */
 .border-dot {
   border-style: dotted !important;
 }
 
-/* line 51, ../scss/utilities/_border.scss */
+/* line 53, ../scss/utilities/_border.scss */
 .border-dash {
   border-style: dashed !important;
 }
 
-/* line 51, ../scss/utilities/_border.scss */
+/* line 53, ../scss/utilities/_border.scss */
 .border-solid {
   border-style: solid !important;
 }
@@ -1102,15 +1102,7 @@ a.bg-transparent:focus, a.bg-transparent:hover {
   font-family: Menlo, Monaco, Consolas, "Courier New", Monospace !important;
 }
 
-/* line 33, ../scss/utilities/_text.scss */
-.text-transparent {
-  color: transparent;
-  text-shadow: none;
-  background-color: transparent;
-  border: 0;
-}
-
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-primary {
   color: #007bff !important;
 }
@@ -1120,7 +1112,7 @@ a.text-primary:focus, a.text-primary:hover {
   color: #0062cc !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-secondary {
   color: #375A7F !important;
 }
@@ -1130,7 +1122,7 @@ a.text-secondary:focus, a.text-secondary:hover {
   color: #28415b !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-success {
   color: #2EC6A0 !important;
 }
@@ -1140,7 +1132,7 @@ a.text-success:focus, a.text-success:hover {
   color: #249d7f !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-info {
   color: #14adea !important;
 }
@@ -1150,7 +1142,7 @@ a.text-info:focus, a.text-info:hover {
   color: #108abb !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-warning {
   color: #ffc107 !important;
 }
@@ -1160,7 +1152,7 @@ a.text-warning:focus, a.text-warning:hover {
   color: #d39e00 !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-danger {
   color: #dc3545 !important;
 }
@@ -1170,7 +1162,7 @@ a.text-danger:focus, a.text-danger:hover {
   color: #bd2130 !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-white {
   color: #fff !important;
 }
@@ -1180,7 +1172,7 @@ a.text-white:focus, a.text-white:hover {
   color: #e6e6e6 !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-light {
   color: #dee2e6 !important;
 }
@@ -1190,7 +1182,7 @@ a.text-light:focus, a.text-light:hover {
   color: #c1c9d0 !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-muted {
   color: #6c757d !important;
 }
@@ -1200,7 +1192,7 @@ a.text-muted:focus, a.text-muted:hover {
   color: #545b62 !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-dark {
   color: #212529 !important;
 }
@@ -1210,7 +1202,7 @@ a.text-dark:focus, a.text-dark:hover {
   color: #0a0c0d !important;
 }
 
-/* line 40, ../scss/utilities/_text.scss */
+/* line 36, ../scss/utilities/_text.scss */
 .text-black {
   color: #000 !important;
 }
@@ -1218,16 +1210,6 @@ a.text-dark:focus, a.text-dark:hover {
 /* line 18, ../scss/mixins/_hover.scss */
 a.text-black:focus, a.text-black:hover {
   color: black !important;
-}
-
-/* line 40, ../scss/utilities/_text.scss */
-.text-transparent {
-  color: transparent !important;
-}
-
-/* line 18, ../scss/mixins/_hover.scss */
-a.text-transparent:focus, a.text-transparent:hover {
-  color: transparent !important;
 }
 
 /* line 6, ../scss/utilities/_spacer.scss */
@@ -5403,29 +5385,6 @@ select.form-control > option {
   color: #fff;
 }
 
-/* line 131, ../scss/mixins/_forms.scss */
-.radio-transparent > label:before,
-.checkbox-transparent > label:before {
-  border-color: transparent;
-}
-/* line 136, ../scss/mixins/_forms.scss */
-.radio-transparent input:not(:disabled) + label:hover:before,
-.checkbox-transparent input:not(:disabled) + label:hover:before {
-  border: 2px solid transparent;
-}
-/* line 140, ../scss/mixins/_forms.scss */
-.radio-transparent input:checked + label,
-.checkbox-transparent input:checked + label {
-  color: transparent;
-}
-/* line 144, ../scss/mixins/_forms.scss */
-.radio-transparent input:checked + label:before,
-.checkbox-transparent input:checked + label:before {
-  border: 2px solid transparent;
-  background-color: transparent;
-  color: #fff;
-}
-
 /* line 266, ../scss/_forms.scss */
 .checkbox-switch {
   position: relative;
@@ -5578,11 +5537,6 @@ select.form-control > option {
 /* line 156, ../scss/mixins/_forms.scss */
 .checkbox-switch-black input[type="checkbox"]:checked + label {
   background-color: #000;
-}
-
-/* line 156, ../scss/mixins/_forms.scss */
-.checkbox-switch-transparent input[type="checkbox"]:checked + label {
-  background-color: transparent;
 }
 
 /* line 374, ../scss/_forms.scss */
@@ -5994,7 +5948,7 @@ input[type="checkbox"] {
   cursor: pointer;
 }
 
-/* line 44, ../scss/_buttons.scss */
+/* line 45, ../scss/_buttons.scss */
 .btn-primary {
   color: #fff;
   background-color: #007bff;
@@ -6032,7 +5986,7 @@ input[type="checkbox"] {
   border-color: #007bff;
 }
 
-/* line 47, ../scss/_buttons.scss */
+/* line 45, ../scss/_buttons.scss */
 .btn-secondary {
   color: #fff;
   background-color: #375A7F;
@@ -6070,45 +6024,7 @@ input[type="checkbox"] {
   border-color: #375A7F;
 }
 
-/* line 50, ../scss/_buttons.scss */
-.btn-info {
-  color: #fff;
-  background-color: #14adea;
-  border-color: #14adea;
-}
-/* line 9, ../scss/mixins/_buttons.scss */
-.btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
-  color: #fff;
-  background-color: #108abb;
-  border-color: #108abb;
-  outline: 0;
-}
-/* line 8, ../scss/mixins/_hover.scss */
-.btn-info:hover {
-  color: #fff;
-  background-color: #108abb;
-  border-color: #108abb;
-}
-/* line 24, ../scss/mixins/_buttons.scss */
-.btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
-  background-image: none;
-  outline: 0;
-  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
-  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
-}
-/* line 35, ../scss/mixins/_buttons.scss */
-.btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info:disabled:focus, .btn-info:disabled.focus, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info.focus {
-  background-color: #14adea;
-  border-color: #14adea;
-}
-/* line 8, ../scss/mixins/_hover.scss */
-.btn-info.disabled:hover, .btn-info:disabled:hover, fieldset[disabled] .btn-info:hover {
-  background-color: #14adea;
-  border-color: #14adea;
-}
-
-/* line 53, ../scss/_buttons.scss */
+/* line 45, ../scss/_buttons.scss */
 .btn-success {
   color: #fff;
   background-color: #2EC6A0;
@@ -6146,7 +6062,45 @@ input[type="checkbox"] {
   border-color: #2EC6A0;
 }
 
-/* line 56, ../scss/_buttons.scss */
+/* line 45, ../scss/_buttons.scss */
+.btn-info {
+  color: #fff;
+  background-color: #14adea;
+  border-color: #14adea;
+}
+/* line 9, ../scss/mixins/_buttons.scss */
+.btn-info:focus, .btn-info.focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
+  color: #fff;
+  background-color: #108abb;
+  border-color: #108abb;
+  outline: 0;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-info:hover {
+  color: #fff;
+  background-color: #108abb;
+  border-color: #108abb;
+}
+/* line 24, ../scss/mixins/_buttons.scss */
+.btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
+  background-image: none;
+  outline: 0;
+  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+}
+/* line 35, ../scss/mixins/_buttons.scss */
+.btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info:disabled:focus, .btn-info:disabled.focus, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info.focus {
+  background-color: #14adea;
+  border-color: #14adea;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-info.disabled:hover, .btn-info:disabled:hover, fieldset[disabled] .btn-info:hover {
+  background-color: #14adea;
+  border-color: #14adea;
+}
+
+/* line 45, ../scss/_buttons.scss */
 .btn-warning {
   color: #fff;
   background-color: #ffc107;
@@ -6184,7 +6138,7 @@ input[type="checkbox"] {
   border-color: #ffc107;
 }
 
-/* line 59, ../scss/_buttons.scss */
+/* line 45, ../scss/_buttons.scss */
 .btn-danger {
   color: #fff;
   background-color: #dc3545;
@@ -6222,7 +6176,121 @@ input[type="checkbox"] {
   border-color: #dc3545;
 }
 
-/* line 62, ../scss/_buttons.scss */
+/* line 45, ../scss/_buttons.scss */
+.btn-white {
+  color: #000;
+  background-color: #fff;
+  border-color: #fff;
+}
+/* line 9, ../scss/mixins/_buttons.scss */
+.btn-white:focus, .btn-white.focus, .btn-white:active, .btn-white.active, .open > .btn-white.dropdown-toggle {
+  color: #000;
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+  outline: 0;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-white:hover {
+  color: #000;
+  background-color: #e6e6e6;
+  border-color: #e6e6e6;
+}
+/* line 24, ../scss/mixins/_buttons.scss */
+.btn-white:active, .btn-white.active, .open > .btn-white.dropdown-toggle {
+  background-image: none;
+  outline: 0;
+  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+}
+/* line 35, ../scss/mixins/_buttons.scss */
+.btn-white.disabled:focus, .btn-white.disabled.focus, .btn-white:disabled:focus, .btn-white:disabled.focus, fieldset[disabled] .btn-white:focus, fieldset[disabled] .btn-white.focus {
+  background-color: #fff;
+  border-color: #fff;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-white.disabled:hover, .btn-white:disabled:hover, fieldset[disabled] .btn-white:hover {
+  background-color: #fff;
+  border-color: #fff;
+}
+
+/* line 45, ../scss/_buttons.scss */
+.btn-light {
+  color: #fff;
+  background-color: #dee2e6;
+  border-color: #dee2e6;
+}
+/* line 9, ../scss/mixins/_buttons.scss */
+.btn-light:focus, .btn-light.focus, .btn-light:active, .btn-light.active, .open > .btn-light.dropdown-toggle {
+  color: #fff;
+  background-color: #c1c9d0;
+  border-color: #c1c9d0;
+  outline: 0;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-light:hover {
+  color: #fff;
+  background-color: #c1c9d0;
+  border-color: #c1c9d0;
+}
+/* line 24, ../scss/mixins/_buttons.scss */
+.btn-light:active, .btn-light.active, .open > .btn-light.dropdown-toggle {
+  background-image: none;
+  outline: 0;
+  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+}
+/* line 35, ../scss/mixins/_buttons.scss */
+.btn-light.disabled:focus, .btn-light.disabled.focus, .btn-light:disabled:focus, .btn-light:disabled.focus, fieldset[disabled] .btn-light:focus, fieldset[disabled] .btn-light.focus {
+  background-color: #dee2e6;
+  border-color: #dee2e6;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-light.disabled:hover, .btn-light:disabled:hover, fieldset[disabled] .btn-light:hover {
+  background-color: #dee2e6;
+  border-color: #dee2e6;
+}
+
+/* line 45, ../scss/_buttons.scss */
+.btn-muted {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+/* line 9, ../scss/mixins/_buttons.scss */
+.btn-muted:focus, .btn-muted.focus, .btn-muted:active, .btn-muted.active, .open > .btn-muted.dropdown-toggle {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #545b62;
+  outline: 0;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-muted:hover {
+  color: #fff;
+  background-color: #545b62;
+  border-color: #545b62;
+}
+/* line 24, ../scss/mixins/_buttons.scss */
+.btn-muted:active, .btn-muted.active, .open > .btn-muted.dropdown-toggle {
+  background-image: none;
+  outline: 0;
+  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+}
+/* line 35, ../scss/mixins/_buttons.scss */
+.btn-muted.disabled:focus, .btn-muted.disabled.focus, .btn-muted:disabled:focus, .btn-muted:disabled.focus, fieldset[disabled] .btn-muted:focus, fieldset[disabled] .btn-muted.focus {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-muted.disabled:hover, .btn-muted:disabled:hover, fieldset[disabled] .btn-muted:hover {
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+/* line 45, ../scss/_buttons.scss */
 .btn-dark {
   color: #fff;
   background-color: #212529;
@@ -6260,7 +6328,45 @@ input[type="checkbox"] {
   border-color: #212529;
 }
 
-/* line 69, ../scss/_buttons.scss */
+/* line 45, ../scss/_buttons.scss */
+.btn-black {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+/* line 9, ../scss/mixins/_buttons.scss */
+.btn-black:focus, .btn-black.focus, .btn-black:active, .btn-black.active, .open > .btn-black.dropdown-toggle {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+  outline: 0;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-black:hover {
+  color: #fff;
+  background-color: black;
+  border-color: black;
+}
+/* line 24, ../scss/mixins/_buttons.scss */
+.btn-black:active, .btn-black.active, .open > .btn-black.dropdown-toggle {
+  background-image: none;
+  outline: 0;
+  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+}
+/* line 35, ../scss/mixins/_buttons.scss */
+.btn-black.disabled:focus, .btn-black.disabled.focus, .btn-black:disabled:focus, .btn-black:disabled.focus, fieldset[disabled] .btn-black:focus, fieldset[disabled] .btn-black.focus {
+  background-color: #000;
+  border-color: #000;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-black.disabled:hover, .btn-black:disabled:hover, fieldset[disabled] .btn-black:hover {
+  background-color: #000;
+  border-color: #000;
+}
+
+/* line 53, ../scss/_buttons.scss */
 .btn-outline {
   color: #dee2e6;
   background-image: none;
@@ -6297,7 +6403,7 @@ input[type="checkbox"] {
   border-color: white;
 }
 
-/* line 72, ../scss/_buttons.scss */
+/* line 57, ../scss/_buttons.scss */
 .btn-primary-outline {
   color: #007bff;
   background-image: none;
@@ -6334,7 +6440,7 @@ input[type="checkbox"] {
   border-color: #66b0ff;
 }
 
-/* line 75, ../scss/_buttons.scss */
+/* line 57, ../scss/_buttons.scss */
 .btn-secondary-outline {
   color: #375A7F;
   background-image: none;
@@ -6371,44 +6477,7 @@ input[type="checkbox"] {
   border-color: #618dbb;
 }
 
-/* line 78, ../scss/_buttons.scss */
-.btn-info-outline {
-  color: #14adea;
-  background-image: none;
-  background-color: transparent;
-  border-color: #14adea;
-}
-/* line 53, ../scss/mixins/_buttons.scss */
-.btn-info-outline:focus, .btn-info-outline.focus, .btn-info-outline:active, .btn-info-outline.active, .open > .btn-info-outline.dropdown-toggle {
-  color: #fff;
-  background-color: #14adea;
-  border-color: #14adea;
-  outline: 0;
-}
-/* line 8, ../scss/mixins/_hover.scss */
-.btn-info-outline:hover {
-  color: #fff;
-  background-color: #14adea;
-  border-color: #14adea;
-}
-/* line 69, ../scss/mixins/_buttons.scss */
-.btn-info-outline:active, .btn-info-outline.active, .open > .btn-info-outline.dropdown-toggle {
-  background-image: none;
-  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
-  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
-  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
-  outline: 0;
-}
-/* line 79, ../scss/mixins/_buttons.scss */
-.btn-info-outline.disabled:focus, .btn-info-outline.disabled.focus, .btn-info-outline:disabled:focus, .btn-info-outline:disabled.focus, fieldset[disabled] .btn-info-outline:focus, fieldset[disabled] .btn-info-outline.focus {
-  border-color: #71cef3;
-}
-/* line 8, ../scss/mixins/_hover.scss */
-.btn-info-outline.disabled:hover, .btn-info-outline:disabled:hover, fieldset[disabled] .btn-info-outline:hover {
-  border-color: #71cef3;
-}
-
-/* line 81, ../scss/_buttons.scss */
+/* line 57, ../scss/_buttons.scss */
 .btn-success-outline {
   color: #2EC6A0;
   background-image: none;
@@ -6445,7 +6514,44 @@ input[type="checkbox"] {
   border-color: #7ae0c7;
 }
 
-/* line 84, ../scss/_buttons.scss */
+/* line 57, ../scss/_buttons.scss */
+.btn-info-outline {
+  color: #14adea;
+  background-image: none;
+  background-color: transparent;
+  border-color: #14adea;
+}
+/* line 53, ../scss/mixins/_buttons.scss */
+.btn-info-outline:focus, .btn-info-outline.focus, .btn-info-outline:active, .btn-info-outline.active, .open > .btn-info-outline.dropdown-toggle {
+  color: #fff;
+  background-color: #14adea;
+  border-color: #14adea;
+  outline: 0;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-info-outline:hover {
+  color: #fff;
+  background-color: #14adea;
+  border-color: #14adea;
+}
+/* line 69, ../scss/mixins/_buttons.scss */
+.btn-info-outline:active, .btn-info-outline.active, .open > .btn-info-outline.dropdown-toggle {
+  background-image: none;
+  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  outline: 0;
+}
+/* line 79, ../scss/mixins/_buttons.scss */
+.btn-info-outline.disabled:focus, .btn-info-outline.disabled.focus, .btn-info-outline:disabled:focus, .btn-info-outline:disabled.focus, fieldset[disabled] .btn-info-outline:focus, fieldset[disabled] .btn-info-outline.focus {
+  border-color: #71cef3;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-info-outline.disabled:hover, .btn-info-outline:disabled:hover, fieldset[disabled] .btn-info-outline:hover {
+  border-color: #71cef3;
+}
+
+/* line 57, ../scss/_buttons.scss */
 .btn-warning-outline {
   color: #ffc107;
   background-image: none;
@@ -6482,7 +6588,7 @@ input[type="checkbox"] {
   border-color: #ffdb6d;
 }
 
-/* line 87, ../scss/_buttons.scss */
+/* line 57, ../scss/_buttons.scss */
 .btn-danger-outline {
   color: #dc3545;
   background-image: none;
@@ -6519,7 +6625,118 @@ input[type="checkbox"] {
   border-color: #eb8c95;
 }
 
-/* line 90, ../scss/_buttons.scss */
+/* line 57, ../scss/_buttons.scss */
+.btn-white-outline {
+  color: #fff;
+  background-image: none;
+  background-color: transparent;
+  border-color: #fff;
+}
+/* line 53, ../scss/mixins/_buttons.scss */
+.btn-white-outline:focus, .btn-white-outline.focus, .btn-white-outline:active, .btn-white-outline.active, .open > .btn-white-outline.dropdown-toggle {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+  outline: 0;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-white-outline:hover {
+  color: #fff;
+  background-color: #fff;
+  border-color: #fff;
+}
+/* line 69, ../scss/mixins/_buttons.scss */
+.btn-white-outline:active, .btn-white-outline.active, .open > .btn-white-outline.dropdown-toggle {
+  background-image: none;
+  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  outline: 0;
+}
+/* line 79, ../scss/mixins/_buttons.scss */
+.btn-white-outline.disabled:focus, .btn-white-outline.disabled.focus, .btn-white-outline:disabled:focus, .btn-white-outline:disabled.focus, fieldset[disabled] .btn-white-outline:focus, fieldset[disabled] .btn-white-outline.focus {
+  border-color: white;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-white-outline.disabled:hover, .btn-white-outline:disabled:hover, fieldset[disabled] .btn-white-outline:hover {
+  border-color: white;
+}
+
+/* line 57, ../scss/_buttons.scss */
+.btn-light-outline {
+  color: #dee2e6;
+  background-image: none;
+  background-color: transparent;
+  border-color: #dee2e6;
+}
+/* line 53, ../scss/mixins/_buttons.scss */
+.btn-light-outline:focus, .btn-light-outline.focus, .btn-light-outline:active, .btn-light-outline.active, .open > .btn-light-outline.dropdown-toggle {
+  color: #fff;
+  background-color: #dee2e6;
+  border-color: #dee2e6;
+  outline: 0;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-light-outline:hover {
+  color: #fff;
+  background-color: #dee2e6;
+  border-color: #dee2e6;
+}
+/* line 69, ../scss/mixins/_buttons.scss */
+.btn-light-outline:active, .btn-light-outline.active, .open > .btn-light-outline.dropdown-toggle {
+  background-image: none;
+  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  outline: 0;
+}
+/* line 79, ../scss/mixins/_buttons.scss */
+.btn-light-outline.disabled:focus, .btn-light-outline.disabled.focus, .btn-light-outline:disabled:focus, .btn-light-outline:disabled.focus, fieldset[disabled] .btn-light-outline:focus, fieldset[disabled] .btn-light-outline.focus {
+  border-color: white;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-light-outline.disabled:hover, .btn-light-outline:disabled:hover, fieldset[disabled] .btn-light-outline:hover {
+  border-color: white;
+}
+
+/* line 57, ../scss/_buttons.scss */
+.btn-muted-outline {
+  color: #6c757d;
+  background-image: none;
+  background-color: transparent;
+  border-color: #6c757d;
+}
+/* line 53, ../scss/mixins/_buttons.scss */
+.btn-muted-outline:focus, .btn-muted-outline.focus, .btn-muted-outline:active, .btn-muted-outline.active, .open > .btn-muted-outline.dropdown-toggle {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+  outline: 0;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-muted-outline:hover {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+/* line 69, ../scss/mixins/_buttons.scss */
+.btn-muted-outline:active, .btn-muted-outline.active, .open > .btn-muted-outline.dropdown-toggle {
+  background-image: none;
+  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  outline: 0;
+}
+/* line 79, ../scss/mixins/_buttons.scss */
+.btn-muted-outline.disabled:focus, .btn-muted-outline.disabled.focus, .btn-muted-outline:disabled:focus, .btn-muted-outline:disabled.focus, fieldset[disabled] .btn-muted-outline:focus, fieldset[disabled] .btn-muted-outline.focus {
+  border-color: #a1a8ae;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-muted-outline.disabled:hover, .btn-muted-outline:disabled:hover, fieldset[disabled] .btn-muted-outline:hover {
+  border-color: #a1a8ae;
+}
+
+/* line 57, ../scss/_buttons.scss */
 .btn-dark-outline {
   color: #212529;
   background-image: none;
@@ -6556,13 +6773,50 @@ input[type="checkbox"] {
   border-color: #4e5862;
 }
 
-/* line 97, ../scss/_buttons.scss */
+/* line 57, ../scss/_buttons.scss */
+.btn-black-outline {
+  color: #000;
+  background-image: none;
+  background-color: transparent;
+  border-color: #000;
+}
+/* line 53, ../scss/mixins/_buttons.scss */
+.btn-black-outline:focus, .btn-black-outline.focus, .btn-black-outline:active, .btn-black-outline.active, .open > .btn-black-outline.dropdown-toggle {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  outline: 0;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-black-outline:hover {
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+}
+/* line 69, ../scss/mixins/_buttons.scss */
+.btn-black-outline:active, .btn-black-outline.active, .open > .btn-black-outline.dropdown-toggle {
+  background-image: none;
+  -moz-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.125);
+  outline: 0;
+}
+/* line 79, ../scss/mixins/_buttons.scss */
+.btn-black-outline.disabled:focus, .btn-black-outline.disabled.focus, .btn-black-outline:disabled:focus, .btn-black-outline:disabled.focus, fieldset[disabled] .btn-black-outline:focus, fieldset[disabled] .btn-black-outline.focus {
+  border-color: #333333;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.btn-black-outline.disabled:hover, .btn-black-outline:disabled:hover, fieldset[disabled] .btn-black-outline:hover {
+  border-color: #333333;
+}
+
+/* line 65, ../scss/_buttons.scss */
 .btn-link {
   font-weight: normal;
   color: #007bff;
   border-radius: 0;
 }
-/* line 101, ../scss/_buttons.scss */
+/* line 69, ../scss/_buttons.scss */
 .btn-link:active, .btn-link.active {
   background-image: none;
   outline: 0;
@@ -6570,14 +6824,14 @@ input[type="checkbox"] {
   -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
-/* line 107, ../scss/_buttons.scss */
+/* line 75, ../scss/_buttons.scss */
 .btn-link, .btn-link:active, .btn-link.active, .btn-link:disabled, fieldset[disabled] .btn-link {
   background-color: transparent;
   -moz-box-shadow: none;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
-/* line 115, ../scss/_buttons.scss */
+/* line 83, ../scss/_buttons.scss */
 .btn-link, .btn-link:focus, .btn-link:active {
   border-color: transparent;
 }
@@ -6593,76 +6847,76 @@ input[type="checkbox"] {
 }
 /* line 18, ../scss/mixins/_hover.scss */
 .btn-link:disabled:focus, .btn-link:disabled:hover, .btn-link.disabled:focus, .btn-link.disabled:hover, fieldset[disabled] .btn-link:focus, fieldset[disabled] .btn-link:hover {
-  color: #6c757d;
+  color: #adb5bd;
   text-decoration: none;
 }
 
-/* line 141, ../scss/_buttons.scss */
+/* line 109, ../scss/_buttons.scss */
 .btn-circle {
   -moz-border-radius: 625rem;
   -webkit-border-radius: 625rem;
   border-radius: 625rem;
 }
 
-/* line 144, ../scss/_buttons.scss */
+/* line 112, ../scss/_buttons.scss */
 .btn-round {
   -moz-border-radius: 0.25rem;
   -webkit-border-radius: 0.25rem;
   border-radius: 0.25rem;
 }
-/* line 146, ../scss/_buttons.scss */
+/* line 114, ../scss/_buttons.scss */
 .btn-round.btn-lg, .btn-group-lg .btn-round.btn {
   -moz-border-radius: 0.3rem;
   -webkit-border-radius: 0.3rem;
   border-radius: 0.3rem;
 }
-/* line 149, ../scss/_buttons.scss */
+/* line 117, ../scss/_buttons.scss */
 .btn-round.btn-sm, .btn-group-sm .btn-round.btn {
   -moz-border-radius: 0.2rem;
   -webkit-border-radius: 0.2rem;
   border-radius: 0.2rem;
 }
 
-/* line 157, ../scss/_buttons.scss */
+/* line 125, ../scss/_buttons.scss */
 .btn-hg {
   padding: 0.84792rem 1.25rem;
   font-size: 1.25rem;
   line-height: 0.6875;
 }
 
-/* line 160, ../scss/_buttons.scss */
+/* line 128, ../scss/_buttons.scss */
 .btn-lg, .btn-group-lg .btn {
   padding: 0.3125rem 0.625rem;
   font-size: 1rem;
   line-height: 1.5;
 }
 
-/* line 163, ../scss/_buttons.scss */
+/* line 131, ../scss/_buttons.scss */
 .btn-sm, .btn-group-sm .btn {
   padding: 0.15625rem 0.3125rem;
   font-size: 0.75rem;
   line-height: 1.5;
 }
 
-/* line 170, ../scss/_buttons.scss */
+/* line 138, ../scss/_buttons.scss */
 .btn-block {
   display: block;
   width: 100%;
 }
 
-/* line 176, ../scss/_buttons.scss */
+/* line 144, ../scss/_buttons.scss */
 .btn-block + .btn-block {
   margin-top: 5px;
 }
 
-/* line 184, ../scss/_buttons.scss */
+/* line 152, ../scss/_buttons.scss */
 input[type="submit"].btn-block,
 input[type="reset"].btn-block,
 input[type="button"].btn-block {
   width: 100%;
 }
 
-/* line 189, ../scss/_buttons.scss */
+/* line 157, ../scss/_buttons.scss */
 a.btn.disabled,
 a.btn:disabled,
 fieldset:disabled a.btn {
@@ -7049,24 +7303,6 @@ pre code {
 .table-hover .row-black:hover:hover > td,
 .table-hover .row-black:hover:hover > th {
   background-color: black;
-}
-
-/* line 7, ../scss/mixins/_tables.scss */
-.row-transparent,
-.row-transparent > th,
-.row-transparent > td {
-  color: #f5f5f5;
-  background-color: transparent;
-}
-
-/* line 8, ../scss/mixins/_hover.scss */
-.table-hover .row-transparent:hover:hover {
-  background-color: transparent;
-}
-/* line 25, ../scss/mixins/_tables.scss */
-.table-hover .row-transparent:hover:hover > td,
-.table-hover .row-transparent:hover:hover > th {
-  background-color: transparent;
 }
 
 /* line 71, ../scss/_tables.scss */
@@ -8285,7 +8521,7 @@ nav,
   line-height: 1.5;
 }
 
-/* line 35, ../scss/mixins/_paginations.scss */
+/* line 38, ../scss/mixins/_paginations.scss */
 .pagination-primary > li > a,
 .pagination-primary > li > span {
   color: #007bff;
@@ -8304,7 +8540,7 @@ nav,
   color: #fff;
   background-color: #007bff;
 }
-/* line 60, ../scss/mixins/_paginations.scss */
+/* line 63, ../scss/mixins/_paginations.scss */
 .pagination-primary.pagination-border > li > a,
 .pagination-primary.pagination-border > li > span {
   border-color: rgba(0, 123, 255, 0.3);
@@ -8323,7 +8559,7 @@ nav,
   border-color: #007bff;
 }
 
-/* line 35, ../scss/mixins/_paginations.scss */
+/* line 38, ../scss/mixins/_paginations.scss */
 .pagination-secondary > li > a,
 .pagination-secondary > li > span {
   color: #375A7F;
@@ -8342,7 +8578,7 @@ nav,
   color: #fff;
   background-color: #375A7F;
 }
-/* line 60, ../scss/mixins/_paginations.scss */
+/* line 63, ../scss/mixins/_paginations.scss */
 .pagination-secondary.pagination-border > li > a,
 .pagination-secondary.pagination-border > li > span {
   border-color: rgba(55, 90, 127, 0.3);
@@ -8361,45 +8597,7 @@ nav,
   border-color: #375A7F;
 }
 
-/* line 35, ../scss/mixins/_paginations.scss */
-.pagination-info > li > a,
-.pagination-info > li > span {
-  color: #14adea;
-}
-/* line 8, ../scss/mixins/_hover.scss */
-.pagination-info > li > a:hover,
-.pagination-info > li > span:hover {
-  color: #0f83b2;
-  background-color: rgba(20, 173, 234, 0.2);
-}
-/* line 34, ../scss/mixins/_hover.scss */
-.pagination-info > .active > a, .pagination-info > .active > a:focus, .pagination-info > .active > a:hover,
-.pagination-info > .active > span,
-.pagination-info > .active > span:focus,
-.pagination-info > .active > span:hover {
-  color: #fff;
-  background-color: #14adea;
-}
-/* line 60, ../scss/mixins/_paginations.scss */
-.pagination-info.pagination-border > li > a,
-.pagination-info.pagination-border > li > span {
-  border-color: rgba(20, 173, 234, 0.3);
-}
-/* line 18, ../scss/mixins/_hover.scss */
-.pagination-info.pagination-border > li > a:focus, .pagination-info.pagination-border > li > a:hover,
-.pagination-info.pagination-border > li > span:focus,
-.pagination-info.pagination-border > li > span:hover {
-  border-color: rgba(20, 173, 234, 0.2);
-}
-/* line 34, ../scss/mixins/_hover.scss */
-.pagination-info.pagination-border > .active > a, .pagination-info.pagination-border > .active > a:focus, .pagination-info.pagination-border > .active > a:hover,
-.pagination-info.pagination-border > .active > span,
-.pagination-info.pagination-border > .active > span:focus,
-.pagination-info.pagination-border > .active > span:hover {
-  border-color: #14adea;
-}
-
-/* line 35, ../scss/mixins/_paginations.scss */
+/* line 38, ../scss/mixins/_paginations.scss */
 .pagination-success > li > a,
 .pagination-success > li > span {
   color: #2EC6A0;
@@ -8418,7 +8616,7 @@ nav,
   color: #fff;
   background-color: #2EC6A0;
 }
-/* line 60, ../scss/mixins/_paginations.scss */
+/* line 63, ../scss/mixins/_paginations.scss */
 .pagination-success.pagination-border > li > a,
 .pagination-success.pagination-border > li > span {
   border-color: rgba(46, 198, 160, 0.3);
@@ -8437,7 +8635,45 @@ nav,
   border-color: #2EC6A0;
 }
 
-/* line 35, ../scss/mixins/_paginations.scss */
+/* line 38, ../scss/mixins/_paginations.scss */
+.pagination-info > li > a,
+.pagination-info > li > span {
+  color: #14adea;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.pagination-info > li > a:hover,
+.pagination-info > li > span:hover {
+  color: #0f83b2;
+  background-color: rgba(20, 173, 234, 0.2);
+}
+/* line 34, ../scss/mixins/_hover.scss */
+.pagination-info > .active > a, .pagination-info > .active > a:focus, .pagination-info > .active > a:hover,
+.pagination-info > .active > span,
+.pagination-info > .active > span:focus,
+.pagination-info > .active > span:hover {
+  color: #fff;
+  background-color: #14adea;
+}
+/* line 63, ../scss/mixins/_paginations.scss */
+.pagination-info.pagination-border > li > a,
+.pagination-info.pagination-border > li > span {
+  border-color: rgba(20, 173, 234, 0.3);
+}
+/* line 18, ../scss/mixins/_hover.scss */
+.pagination-info.pagination-border > li > a:focus, .pagination-info.pagination-border > li > a:hover,
+.pagination-info.pagination-border > li > span:focus,
+.pagination-info.pagination-border > li > span:hover {
+  border-color: rgba(20, 173, 234, 0.2);
+}
+/* line 34, ../scss/mixins/_hover.scss */
+.pagination-info.pagination-border > .active > a, .pagination-info.pagination-border > .active > a:focus, .pagination-info.pagination-border > .active > a:hover,
+.pagination-info.pagination-border > .active > span,
+.pagination-info.pagination-border > .active > span:focus,
+.pagination-info.pagination-border > .active > span:hover {
+  border-color: #14adea;
+}
+
+/* line 38, ../scss/mixins/_paginations.scss */
 .pagination-warning > li > a,
 .pagination-warning > li > span {
   color: #ffc107;
@@ -8456,7 +8692,7 @@ nav,
   color: #fff;
   background-color: #ffc107;
 }
-/* line 60, ../scss/mixins/_paginations.scss */
+/* line 63, ../scss/mixins/_paginations.scss */
 .pagination-warning.pagination-border > li > a,
 .pagination-warning.pagination-border > li > span {
   border-color: rgba(255, 193, 7, 0.3);
@@ -8475,7 +8711,7 @@ nav,
   border-color: #ffc107;
 }
 
-/* line 35, ../scss/mixins/_paginations.scss */
+/* line 38, ../scss/mixins/_paginations.scss */
 .pagination-danger > li > a,
 .pagination-danger > li > span {
   color: #dc3545;
@@ -8494,7 +8730,7 @@ nav,
   color: #fff;
   background-color: #dc3545;
 }
-/* line 60, ../scss/mixins/_paginations.scss */
+/* line 63, ../scss/mixins/_paginations.scss */
 .pagination-danger.pagination-border > li > a,
 .pagination-danger.pagination-border > li > span {
   border-color: rgba(220, 53, 69, 0.3);
@@ -8513,7 +8749,135 @@ nav,
   border-color: #dc3545;
 }
 
-/* line 35, ../scss/mixins/_paginations.scss */
+/* line 38, ../scss/mixins/_paginations.scss */
+.pagination-white > li > a,
+.pagination-white > li > span {
+  color: #fff;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.pagination-white > li > a:hover,
+.pagination-white > li > span:hover {
+  color: #e0e0e0;
+  background-color: transparent;
+}
+/* line 34, ../scss/mixins/_hover.scss */
+.pagination-white > .active > a, .pagination-white > .active > a:focus, .pagination-white > .active > a:hover,
+.pagination-white > .active > span,
+.pagination-white > .active > span:focus,
+.pagination-white > .active > span:hover {
+  color: #fff;
+  background-color: #fff;
+}
+/* line 63, ../scss/mixins/_paginations.scss */
+.pagination-white.pagination-border > li > a,
+.pagination-white.pagination-border > li > span {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+/* line 18, ../scss/mixins/_hover.scss */
+.pagination-white.pagination-border > li > a:focus, .pagination-white.pagination-border > li > a:hover,
+.pagination-white.pagination-border > li > span:focus,
+.pagination-white.pagination-border > li > span:hover {
+  border-color: transparent;
+}
+/* line 34, ../scss/mixins/_hover.scss */
+.pagination-white.pagination-border > .active > a, .pagination-white.pagination-border > .active > a:focus, .pagination-white.pagination-border > .active > a:hover,
+.pagination-white.pagination-border > .active > span,
+.pagination-white.pagination-border > .active > span:focus,
+.pagination-white.pagination-border > .active > span:hover {
+  border-color: #fff;
+}
+/* line 34, ../scss/mixins/_hover.scss */
+.pagination-white > .active > a, .pagination-white > .active > a:focus, .pagination-white > .active > a:hover,
+.pagination-white > .active > span,
+.pagination-white > .active > span:focus,
+.pagination-white > .active > span:hover {
+  background-color: transparent;
+}
+/* line 34, ../scss/mixins/_hover.scss */
+.pagination-white > .disabled > span, .pagination-white > .disabled > span:focus, .pagination-white > .disabled > span:hover,
+.pagination-white > .disabled > a,
+.pagination-white > .disabled > a:focus,
+.pagination-white > .disabled > a:hover {
+  background-color: transparent;
+}
+
+/* line 38, ../scss/mixins/_paginations.scss */
+.pagination-light > li > a,
+.pagination-light > li > span {
+  color: #dee2e6;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.pagination-light > li > a:hover,
+.pagination-light > li > span:hover {
+  color: #bbc3cc;
+  background-color: rgba(222, 226, 230, 0.2);
+}
+/* line 34, ../scss/mixins/_hover.scss */
+.pagination-light > .active > a, .pagination-light > .active > a:focus, .pagination-light > .active > a:hover,
+.pagination-light > .active > span,
+.pagination-light > .active > span:focus,
+.pagination-light > .active > span:hover {
+  color: #fff;
+  background-color: #dee2e6;
+}
+/* line 63, ../scss/mixins/_paginations.scss */
+.pagination-light.pagination-border > li > a,
+.pagination-light.pagination-border > li > span {
+  border-color: rgba(222, 226, 230, 0.3);
+}
+/* line 18, ../scss/mixins/_hover.scss */
+.pagination-light.pagination-border > li > a:focus, .pagination-light.pagination-border > li > a:hover,
+.pagination-light.pagination-border > li > span:focus,
+.pagination-light.pagination-border > li > span:hover {
+  border-color: rgba(222, 226, 230, 0.2);
+}
+/* line 34, ../scss/mixins/_hover.scss */
+.pagination-light.pagination-border > .active > a, .pagination-light.pagination-border > .active > a:focus, .pagination-light.pagination-border > .active > a:hover,
+.pagination-light.pagination-border > .active > span,
+.pagination-light.pagination-border > .active > span:focus,
+.pagination-light.pagination-border > .active > span:hover {
+  border-color: #dee2e6;
+}
+
+/* line 38, ../scss/mixins/_paginations.scss */
+.pagination-muted > li > a,
+.pagination-muted > li > span {
+  color: #6c757d;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.pagination-muted > li > a:hover,
+.pagination-muted > li > span:hover {
+  color: #50565c;
+  background-color: rgba(108, 117, 125, 0.2);
+}
+/* line 34, ../scss/mixins/_hover.scss */
+.pagination-muted > .active > a, .pagination-muted > .active > a:focus, .pagination-muted > .active > a:hover,
+.pagination-muted > .active > span,
+.pagination-muted > .active > span:focus,
+.pagination-muted > .active > span:hover {
+  color: #fff;
+  background-color: #6c757d;
+}
+/* line 63, ../scss/mixins/_paginations.scss */
+.pagination-muted.pagination-border > li > a,
+.pagination-muted.pagination-border > li > span {
+  border-color: rgba(108, 117, 125, 0.3);
+}
+/* line 18, ../scss/mixins/_hover.scss */
+.pagination-muted.pagination-border > li > a:focus, .pagination-muted.pagination-border > li > a:hover,
+.pagination-muted.pagination-border > li > span:focus,
+.pagination-muted.pagination-border > li > span:hover {
+  border-color: rgba(108, 117, 125, 0.2);
+}
+/* line 34, ../scss/mixins/_hover.scss */
+.pagination-muted.pagination-border > .active > a, .pagination-muted.pagination-border > .active > a:focus, .pagination-muted.pagination-border > .active > a:hover,
+.pagination-muted.pagination-border > .active > span,
+.pagination-muted.pagination-border > .active > span:focus,
+.pagination-muted.pagination-border > .active > span:hover {
+  border-color: #6c757d;
+}
+
+/* line 38, ../scss/mixins/_paginations.scss */
 .pagination-dark > li > a,
 .pagination-dark > li > span {
   color: #212529;
@@ -8532,7 +8896,7 @@ nav,
   color: #fff;
   background-color: #212529;
 }
-/* line 60, ../scss/mixins/_paginations.scss */
+/* line 63, ../scss/mixins/_paginations.scss */
 .pagination-dark.pagination-border > li > a,
 .pagination-dark.pagination-border > li > span {
   border-color: rgba(33, 37, 41, 0.3);
@@ -8549,6 +8913,44 @@ nav,
 .pagination-dark.pagination-border > .active > span:focus,
 .pagination-dark.pagination-border > .active > span:hover {
   border-color: #212529;
+}
+
+/* line 38, ../scss/mixins/_paginations.scss */
+.pagination-black > li > a,
+.pagination-black > li > span {
+  color: #000;
+}
+/* line 8, ../scss/mixins/_hover.scss */
+.pagination-black > li > a:hover,
+.pagination-black > li > span:hover {
+  color: black;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+/* line 34, ../scss/mixins/_hover.scss */
+.pagination-black > .active > a, .pagination-black > .active > a:focus, .pagination-black > .active > a:hover,
+.pagination-black > .active > span,
+.pagination-black > .active > span:focus,
+.pagination-black > .active > span:hover {
+  color: #fff;
+  background-color: #000;
+}
+/* line 63, ../scss/mixins/_paginations.scss */
+.pagination-black.pagination-border > li > a,
+.pagination-black.pagination-border > li > span {
+  border-color: rgba(0, 0, 0, 0.3);
+}
+/* line 18, ../scss/mixins/_hover.scss */
+.pagination-black.pagination-border > li > a:focus, .pagination-black.pagination-border > li > a:hover,
+.pagination-black.pagination-border > li > span:focus,
+.pagination-black.pagination-border > li > span:hover {
+  border-color: rgba(0, 0, 0, 0.2);
+}
+/* line 34, ../scss/mixins/_hover.scss */
+.pagination-black.pagination-border > .active > a, .pagination-black.pagination-border > .active > a:focus, .pagination-black.pagination-border > .active > a:hover,
+.pagination-black.pagination-border > .active > span,
+.pagination-black.pagination-border > .active > span:focus,
+.pagination-black.pagination-border > .active > span:hover {
+  border-color: #000;
 }
 
 /* line 6, ../scss/_badge.scss */
@@ -8716,18 +9118,6 @@ nav,
   background-color: black;
 }
 
-/* line 36, ../scss/_badge.scss */
-.badge-transparent {
-  color: #fff;
-  background-color: transparent;
-}
-/* line 18, ../scss/mixins/_hover.scss */
-.badge-transparent[href]:focus, .badge-transparent[href]:hover {
-  color: #fff;
-  text-decoration: none;
-  background-color: transparent;
-}
-
 /* line 5, ../scss/_elf.scss */
 .elf {
   display: inline-block;
@@ -8735,7 +9125,7 @@ nav,
 }
 
 /* line 3, ../scss/mixins/_elf.scss */
-.elf-primary:after, .elf-primary-prev:before, .elf-secondary:after, .elf-secondary-prev:before, .elf-success:after, .elf-success-prev:before, .elf-info:after, .elf-info-prev:before, .elf-warning:after, .elf-warning-prev:before, .elf-danger:after, .elf-danger-prev:before, .elf-white:after, .elf-white-prev:before, .elf-light:after, .elf-light-prev:before, .elf-muted:after, .elf-muted-prev:before, .elf-dark:after, .elf-dark-prev:before, .elf-black:after, .elf-black-prev:before, .elf-transparent:after, .elf-transparent-prev:before {
+.elf-primary:after, .elf-primary-prev:before, .elf-secondary:after, .elf-secondary-prev:before, .elf-success:after, .elf-success-prev:before, .elf-info:after, .elf-info-prev:before, .elf-warning:after, .elf-warning-prev:before, .elf-danger:after, .elf-danger-prev:before, .elf-white:after, .elf-white-prev:before, .elf-light:after, .elf-light-prev:before, .elf-muted:after, .elf-muted-prev:before, .elf-dark:after, .elf-dark-prev:before, .elf-black:after, .elf-black-prev:before {
   content: '';
   display: block;
   position: absolute;
@@ -8877,18 +9267,6 @@ nav,
   background-color: #000 !important;
 }
 
-/* line 14, ../scss/mixins/_elf.scss */
-.elf-transparent:after {
-  right: -10px;
-  background-color: transparent !important;
-}
-
-/* line 20, ../scss/mixins/_elf.scss */
-.elf-transparent-prev:before {
-  left: -10px;
-  background-color: transparent !important;
-}
-
 /* line 5, ../scss/_dot.scss */
 .dot {
   display: inline-block;
@@ -8951,11 +9329,6 @@ nav,
 /* line 3, ../scss/mixins/_dot.scss */
 .dot-black {
   background-color: #000 !important;
-}
-
-/* line 3, ../scss/mixins/_dot.scss */
-.dot-transparent {
-  background-color: transparent !important;
 }
 
 /* line 6, ../scss/_jumbotron.scss */
@@ -9158,13 +9531,13 @@ nav,
 
 /* line 59, ../scss/_alert.scss */
 .alert-primary {
-  background-color: #cce5ff;
-  border: 1px solid #b8daff;
+  background-color: #8fc5ff;
+  border: 1px solid #7abaff;
   color: #004085;
 }
 /* line 9, ../scss/mixins/_alert.scss */
 .alert-primary hr {
-  border-top-color: #9fcdff;
+  border-top-color: #61adff;
 }
 /* line 12, ../scss/mixins/_alert.scss */
 .alert-primary .alert-link {
@@ -9173,13 +9546,13 @@ nav,
 
 /* line 59, ../scss/_alert.scss */
 .alert-secondary {
-  background-color: #d7dee5;
-  border: 1px solid #c7d1db;
+  background-color: #a7b6c7;
+  border: 1px solid #97a9bc;
   color: #1d2f42;
 }
 /* line 9, ../scss/mixins/_alert.scss */
 .alert-secondary hr {
-  border-top-color: #b7c4d1;
+  border-top-color: #879cb2;
 }
 /* line 12, ../scss/mixins/_alert.scss */
 .alert-secondary .alert-link {
@@ -9188,13 +9561,13 @@ nav,
 
 /* line 59, ../scss/_alert.scss */
 .alert-success {
-  background-color: #d5f4ec;
-  border: 1px solid #c4efe4;
+  background-color: #a3e6d5;
+  border: 1px solid #92e1ce;
   color: #186753;
 }
 /* line 9, ../scss/mixins/_alert.scss */
 .alert-success hr {
-  border-top-color: #b0eadb;
+  border-top-color: #7edbc5;
 }
 /* line 12, ../scss/mixins/_alert.scss */
 .alert-success .alert-link {
@@ -9203,13 +9576,13 @@ nav,
 
 /* line 59, ../scss/_alert.scss */
 .alert-info {
-  background-color: #d0effb;
-  border: 1px solid #bde8f9;
+  background-color: #98dbf6;
+  border: 1px solid #85d4f4;
   color: #0a5a7a;
 }
 /* line 9, ../scss/mixins/_alert.scss */
 .alert-info hr {
-  border-top-color: #a6e0f7;
+  border-top-color: #6eccf2;
 }
 /* line 12, ../scss/mixins/_alert.scss */
 .alert-info .alert-link {
@@ -9218,13 +9591,13 @@ nav,
 
 /* line 59, ../scss/_alert.scss */
 .alert-warning {
-  background-color: #fff3cd;
-  border: 1px solid #ffeeba;
+  background-color: #ffe492;
+  border: 1px solid #ffdf7e;
   color: #856404;
 }
 /* line 9, ../scss/mixins/_alert.scss */
 .alert-warning hr {
-  border-top-color: #ffe8a1;
+  border-top-color: #ffd965;
 }
 /* line 12, ../scss/mixins/_alert.scss */
 .alert-warning .alert-link {
@@ -9233,13 +9606,13 @@ nav,
 
 /* line 59, ../scss/_alert.scss */
 .alert-danger {
-  background-color: #f8d7da;
-  border: 1px solid #f5c6cb;
+  background-color: #f0a6ad;
+  border: 1px solid #ed969e;
   color: #721c24;
 }
 /* line 9, ../scss/mixins/_alert.scss */
 .alert-danger hr {
-  border-top-color: #f1b0b7;
+  border-top-color: #e9808a;
 }
 /* line 12, ../scss/mixins/_alert.scss */
 .alert-danger .alert-link {
@@ -9263,13 +9636,13 @@ nav,
 
 /* line 59, ../scss/_alert.scss */
 .alert-light {
-  background-color: #f8f9fa;
-  border: 1px solid #f6f7f8;
+  background-color: #f0f2f4;
+  border: 1px solid #eef0f2;
   color: #737678;
 }
 /* line 9, ../scss/mixins/_alert.scss */
 .alert-light hr {
-  border-top-color: #e8eaed;
+  border-top-color: #e0e3e7;
 }
 /* line 12, ../scss/mixins/_alert.scss */
 .alert-light .alert-link {
@@ -9278,13 +9651,13 @@ nav,
 
 /* line 59, ../scss/_alert.scss */
 .alert-muted {
-  background-color: #e2e3e5;
-  border: 1px solid #d6d8db;
+  background-color: #bec2c6;
+  border: 1px solid #b3b7bb;
   color: #383d41;
 }
 /* line 9, ../scss/mixins/_alert.scss */
 .alert-muted hr {
-  border-top-color: #c8cbcf;
+  border-top-color: #a6aaaf;
 }
 /* line 12, ../scss/mixins/_alert.scss */
 .alert-muted .alert-link {
@@ -9293,13 +9666,13 @@ nav,
 
 /* line 59, ../scss/_alert.scss */
 .alert-dark {
-  background-color: #d3d3d4;
-  border: 1px solid #c1c2c3;
+  background-color: #9d9fa1;
+  border: 1px solid #8c8e90;
   color: #111315;
 }
 /* line 9, ../scss/mixins/_alert.scss */
 .alert-dark hr {
-  border-top-color: #b4b5b6;
+  border-top-color: #7f8183;
 }
 /* line 12, ../scss/mixins/_alert.scss */
 .alert-dark .alert-link {
@@ -9308,32 +9681,17 @@ nav,
 
 /* line 59, ../scss/_alert.scss */
 .alert-black {
-  background-color: #cccccc;
-  border: 1px solid #b8b8b8;
+  background-color: #8f8f8f;
+  border: 1px solid #7a7a7a;
   color: black;
 }
 /* line 9, ../scss/mixins/_alert.scss */
 .alert-black hr {
-  border-top-color: #ababab;
+  border-top-color: #6d6d6d;
 }
 /* line 12, ../scss/mixins/_alert.scss */
 .alert-black .alert-link {
   color: black;
-}
-
-/* line 59, ../scss/_alert.scss */
-.alert-transparent {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(255, 255, 255, 0.72);
-  color: rgba(0, 0, 0, 0.48);
-}
-/* line 9, ../scss/mixins/_alert.scss */
-.alert-transparent hr {
-  border-top-color: rgba(242, 242, 242, 0.72);
-}
-/* line 12, ../scss/mixins/_alert.scss */
-.alert-transparent .alert-link {
-  color: rgba(0, 0, 0, 0.48);
 }
 
 /* line 5, ../scss/_progress.scss */
@@ -9471,7 +9829,7 @@ progress[value]::-moz-progress-bar {
   animation: progress-running 2s ease infinite;
 }
 
-/* line 141, ../scss/_progress.scss */
+/* line 132, ../scss/_progress.scss */
 .progress-primary {
   border: 1px solid #007bff;
 }
@@ -9488,7 +9846,7 @@ progress[value]::-moz-progress-bar {
   background-color: #007bff;
 }
 
-/* line 141, ../scss/_progress.scss */
+/* line 132, ../scss/_progress.scss */
 .progress-secondary {
   border: 1px solid #375A7F;
 }
@@ -9505,7 +9863,7 @@ progress[value]::-moz-progress-bar {
   background-color: #375A7F;
 }
 
-/* line 141, ../scss/_progress.scss */
+/* line 132, ../scss/_progress.scss */
 .progress-success {
   border: 1px solid #2EC6A0;
 }
@@ -9522,7 +9880,7 @@ progress[value]::-moz-progress-bar {
   background-color: #2EC6A0;
 }
 
-/* line 141, ../scss/_progress.scss */
+/* line 132, ../scss/_progress.scss */
 .progress-info {
   border: 1px solid #14adea;
 }
@@ -9539,7 +9897,7 @@ progress[value]::-moz-progress-bar {
   background-color: #14adea;
 }
 
-/* line 141, ../scss/_progress.scss */
+/* line 132, ../scss/_progress.scss */
 .progress-warning {
   border: 1px solid #ffc107;
 }
@@ -9556,7 +9914,7 @@ progress[value]::-moz-progress-bar {
   background-color: #ffc107;
 }
 
-/* line 141, ../scss/_progress.scss */
+/* line 132, ../scss/_progress.scss */
 .progress-danger {
   border: 1px solid #dc3545;
 }
@@ -9573,7 +9931,63 @@ progress[value]::-moz-progress-bar {
   background-color: #dc3545;
 }
 
-/* line 141, ../scss/_progress.scss */
+/* line 132, ../scss/_progress.scss */
+.progress-white {
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+/* line 5, ../scss/mixins/_progress.scss */
+.progress-white .progress-value {
+  background-color: #fff;
+}
+/* line 10, ../scss/mixins/_progress.scss */
+.progress-white[value]::-webkit-progress-value {
+  background-color: #fff;
+}
+/* line 14, ../scss/mixins/_progress.scss */
+.progress-white[value]::-moz-progress-bar {
+  background-color: #fff;
+}
+/* line 21, ../scss/mixins/_progress.scss */
+.progress-white .progress-value {
+  color: #212529;
+}
+
+/* line 132, ../scss/_progress.scss */
+.progress-light {
+  border: 1px solid #dee2e6;
+}
+/* line 5, ../scss/mixins/_progress.scss */
+.progress-light .progress-value {
+  background-color: #dee2e6;
+}
+/* line 10, ../scss/mixins/_progress.scss */
+.progress-light[value]::-webkit-progress-value {
+  background-color: #dee2e6;
+}
+/* line 14, ../scss/mixins/_progress.scss */
+.progress-light[value]::-moz-progress-bar {
+  background-color: #dee2e6;
+}
+
+/* line 132, ../scss/_progress.scss */
+.progress-muted {
+  border: 1px solid #6c757d;
+}
+/* line 5, ../scss/mixins/_progress.scss */
+.progress-muted .progress-value {
+  background-color: #6c757d;
+}
+/* line 10, ../scss/mixins/_progress.scss */
+.progress-muted[value]::-webkit-progress-value {
+  background-color: #6c757d;
+}
+/* line 14, ../scss/mixins/_progress.scss */
+.progress-muted[value]::-moz-progress-bar {
+  background-color: #6c757d;
+}
+
+/* line 132, ../scss/_progress.scss */
 .progress-dark {
   border: 1px solid #212529;
 }
@@ -9588,6 +10002,23 @@ progress[value]::-moz-progress-bar {
 /* line 14, ../scss/mixins/_progress.scss */
 .progress-dark[value]::-moz-progress-bar {
   background-color: #212529;
+}
+
+/* line 132, ../scss/_progress.scss */
+.progress-black {
+  border: 1px solid #000;
+}
+/* line 5, ../scss/mixins/_progress.scss */
+.progress-black .progress-value {
+  background-color: #000;
+}
+/* line 10, ../scss/mixins/_progress.scss */
+.progress-black[value]::-webkit-progress-value {
+  background-color: #000;
+}
+/* line 14, ../scss/mixins/_progress.scss */
+.progress-black[value]::-moz-progress-bar {
+  background-color: #000;
 }
 
 /* line 6, ../scss/_media.scss */
@@ -9784,8 +10215,21 @@ progress[value]::-moz-progress-bar {
 }
 
 /* line 6, ../scss/mixins/_list-group.scss */
+.list-group-white .list-group-item:not(.disabled).active, .list-group-white .list-group-item:not(.disabled).active > a {
+  color: #fff;
+  background-color: transparent;
+  border-color: transparent;
+}
+/* line 12, ../scss/mixins/_list-group.scss */
+.list-group-white .list-group-item:not(.disabled).active .list-group-item-heading,
+.list-group-white .list-group-item:not(.disabled).active .list-group-item-text, .list-group-white .list-group-item:not(.disabled).active > a .list-group-item-heading,
+.list-group-white .list-group-item:not(.disabled).active > a .list-group-item-text {
+  color: #f5f5f5;
+}
+
+/* line 6, ../scss/mixins/_list-group.scss */
 .list-group-light .list-group-item:not(.disabled).active, .list-group-light .list-group-item:not(.disabled).active > a {
-  color: #6c757d;
+  color: #fff;
   background-color: #dee2e6;
   border-color: #dee2e6;
 }
@@ -9992,12 +10436,13 @@ progress[value]::-moz-progress-bar {
 .input-group-primary .input-group-addon,
 .input-group-primary .form-control {
   border-color: #007bff;
+  background-color: #fff;
 }
-/* line 7, ../scss/mixins/_input-group.scss */
+/* line 12, ../scss/mixins/_input-group.scss */
 .input-group-primary .input-group-addon {
   color: #007bff;
 }
-/* line 11, ../scss/mixins/_input-group.scss */
+/* line 16, ../scss/mixins/_input-group.scss */
 .input-group-primary .form-control:focus {
   -moz-box-shadow: 0 0 6px 0px rgba(0, 123, 255, 0.75), inset 0 0 6px 0 rgba(0, 123, 255, 0.15);
   -webkit-box-shadow: 0 0 6px 0px rgba(0, 123, 255, 0.75), inset 0 0 6px 0 rgba(0, 123, 255, 0.15);
@@ -10008,12 +10453,13 @@ progress[value]::-moz-progress-bar {
 .input-group-secondary .input-group-addon,
 .input-group-secondary .form-control {
   border-color: #375A7F;
+  background-color: #fff;
 }
-/* line 7, ../scss/mixins/_input-group.scss */
+/* line 12, ../scss/mixins/_input-group.scss */
 .input-group-secondary .input-group-addon {
-  color: #6c757d;
+  color: #375A7F;
 }
-/* line 11, ../scss/mixins/_input-group.scss */
+/* line 16, ../scss/mixins/_input-group.scss */
 .input-group-secondary .form-control:focus {
   -moz-box-shadow: 0 0 6px 0px rgba(55, 90, 127, 0.75), inset 0 0 6px 0 rgba(55, 90, 127, 0.15);
   -webkit-box-shadow: 0 0 6px 0px rgba(55, 90, 127, 0.75), inset 0 0 6px 0 rgba(55, 90, 127, 0.15);
@@ -10024,12 +10470,13 @@ progress[value]::-moz-progress-bar {
 .input-group-success .input-group-addon,
 .input-group-success .form-control {
   border-color: #2EC6A0;
+  background-color: #fff;
 }
-/* line 7, ../scss/mixins/_input-group.scss */
+/* line 12, ../scss/mixins/_input-group.scss */
 .input-group-success .input-group-addon {
   color: #2EC6A0;
 }
-/* line 11, ../scss/mixins/_input-group.scss */
+/* line 16, ../scss/mixins/_input-group.scss */
 .input-group-success .form-control:focus {
   -moz-box-shadow: 0 0 6px 0px rgba(46, 198, 160, 0.75), inset 0 0 6px 0 rgba(46, 198, 160, 0.15);
   -webkit-box-shadow: 0 0 6px 0px rgba(46, 198, 160, 0.75), inset 0 0 6px 0 rgba(46, 198, 160, 0.15);
@@ -10040,12 +10487,13 @@ progress[value]::-moz-progress-bar {
 .input-group-info .input-group-addon,
 .input-group-info .form-control {
   border-color: #14adea;
+  background-color: #fff;
 }
-/* line 7, ../scss/mixins/_input-group.scss */
+/* line 12, ../scss/mixins/_input-group.scss */
 .input-group-info .input-group-addon {
   color: #14adea;
 }
-/* line 11, ../scss/mixins/_input-group.scss */
+/* line 16, ../scss/mixins/_input-group.scss */
 .input-group-info .form-control:focus {
   -moz-box-shadow: 0 0 6px 0px rgba(20, 173, 234, 0.75), inset 0 0 6px 0 rgba(20, 173, 234, 0.15);
   -webkit-box-shadow: 0 0 6px 0px rgba(20, 173, 234, 0.75), inset 0 0 6px 0 rgba(20, 173, 234, 0.15);
@@ -10056,12 +10504,13 @@ progress[value]::-moz-progress-bar {
 .input-group-warning .input-group-addon,
 .input-group-warning .form-control {
   border-color: #ffc107;
+  background-color: #fff;
 }
-/* line 7, ../scss/mixins/_input-group.scss */
+/* line 12, ../scss/mixins/_input-group.scss */
 .input-group-warning .input-group-addon {
   color: #ffc107;
 }
-/* line 11, ../scss/mixins/_input-group.scss */
+/* line 16, ../scss/mixins/_input-group.scss */
 .input-group-warning .form-control:focus {
   -moz-box-shadow: 0 0 6px 0px rgba(255, 193, 7, 0.75), inset 0 0 6px 0 rgba(255, 193, 7, 0.15);
   -webkit-box-shadow: 0 0 6px 0px rgba(255, 193, 7, 0.75), inset 0 0 6px 0 rgba(255, 193, 7, 0.15);
@@ -10072,12 +10521,13 @@ progress[value]::-moz-progress-bar {
 .input-group-danger .input-group-addon,
 .input-group-danger .form-control {
   border-color: #dc3545;
+  background-color: #fff;
 }
-/* line 7, ../scss/mixins/_input-group.scss */
+/* line 12, ../scss/mixins/_input-group.scss */
 .input-group-danger .input-group-addon {
   color: #dc3545;
 }
-/* line 11, ../scss/mixins/_input-group.scss */
+/* line 16, ../scss/mixins/_input-group.scss */
 .input-group-danger .form-control:focus {
   -moz-box-shadow: 0 0 6px 0px rgba(220, 53, 69, 0.75), inset 0 0 6px 0 rgba(220, 53, 69, 0.15);
   -webkit-box-shadow: 0 0 6px 0px rgba(220, 53, 69, 0.75), inset 0 0 6px 0 rgba(220, 53, 69, 0.15);
@@ -10085,22 +10535,92 @@ progress[value]::-moz-progress-bar {
 }
 
 /* line 2, ../scss/mixins/_input-group.scss */
+.input-group-white .input-group-addon,
+.input-group-white .form-control {
+  border-color: #fff;
+  background-color: transparent;
+  color: #fff;
+}
+/* line 12, ../scss/mixins/_input-group.scss */
+.input-group-white .input-group-addon {
+  color: #fff;
+}
+/* line 16, ../scss/mixins/_input-group.scss */
+.input-group-white .form-control:focus {
+  -moz-box-shadow: 0 0 6px 0px rgba(255, 255, 255, 0.75), inset 0 0 6px 0 rgba(255, 255, 255, 0.15);
+  -webkit-box-shadow: 0 0 6px 0px rgba(255, 255, 255, 0.75), inset 0 0 6px 0 rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 6px 0px rgba(255, 255, 255, 0.75), inset 0 0 6px 0 rgba(255, 255, 255, 0.15);
+}
+
+/* line 2, ../scss/mixins/_input-group.scss */
+.input-group-light .input-group-addon,
+.input-group-light .form-control {
+  border-color: #dee2e6;
+  background-color: #fff;
+}
+/* line 12, ../scss/mixins/_input-group.scss */
+.input-group-light .input-group-addon {
+  color: #dee2e6;
+}
+/* line 16, ../scss/mixins/_input-group.scss */
+.input-group-light .form-control:focus {
+  -moz-box-shadow: 0 0 6px 0px rgba(222, 226, 230, 0.75), inset 0 0 6px 0 rgba(222, 226, 230, 0.15);
+  -webkit-box-shadow: 0 0 6px 0px rgba(222, 226, 230, 0.75), inset 0 0 6px 0 rgba(222, 226, 230, 0.15);
+  box-shadow: 0 0 6px 0px rgba(222, 226, 230, 0.75), inset 0 0 6px 0 rgba(222, 226, 230, 0.15);
+}
+
+/* line 2, ../scss/mixins/_input-group.scss */
+.input-group-muted .input-group-addon,
+.input-group-muted .form-control {
+  border-color: #6c757d;
+  background-color: #fff;
+}
+/* line 12, ../scss/mixins/_input-group.scss */
+.input-group-muted .input-group-addon {
+  color: #6c757d;
+}
+/* line 16, ../scss/mixins/_input-group.scss */
+.input-group-muted .form-control:focus {
+  -moz-box-shadow: 0 0 6px 0px rgba(108, 117, 125, 0.75), inset 0 0 6px 0 rgba(108, 117, 125, 0.15);
+  -webkit-box-shadow: 0 0 6px 0px rgba(108, 117, 125, 0.75), inset 0 0 6px 0 rgba(108, 117, 125, 0.15);
+  box-shadow: 0 0 6px 0px rgba(108, 117, 125, 0.75), inset 0 0 6px 0 rgba(108, 117, 125, 0.15);
+}
+
+/* line 2, ../scss/mixins/_input-group.scss */
 .input-group-dark .input-group-addon,
 .input-group-dark .form-control {
   border-color: #212529;
+  background-color: #fff;
 }
-/* line 7, ../scss/mixins/_input-group.scss */
+/* line 12, ../scss/mixins/_input-group.scss */
 .input-group-dark .input-group-addon {
   color: #212529;
 }
-/* line 11, ../scss/mixins/_input-group.scss */
+/* line 16, ../scss/mixins/_input-group.scss */
 .input-group-dark .form-control:focus {
   -moz-box-shadow: 0 0 6px 0px rgba(33, 37, 41, 0.75), inset 0 0 6px 0 rgba(33, 37, 41, 0.15);
   -webkit-box-shadow: 0 0 6px 0px rgba(33, 37, 41, 0.75), inset 0 0 6px 0 rgba(33, 37, 41, 0.15);
   box-shadow: 0 0 6px 0px rgba(33, 37, 41, 0.75), inset 0 0 6px 0 rgba(33, 37, 41, 0.15);
 }
 
-/* line 227, ../scss/_input-group.scss */
+/* line 2, ../scss/mixins/_input-group.scss */
+.input-group-black .input-group-addon,
+.input-group-black .form-control {
+  border-color: #000;
+  background-color: #fff;
+}
+/* line 12, ../scss/mixins/_input-group.scss */
+.input-group-black .input-group-addon {
+  color: #000;
+}
+/* line 16, ../scss/mixins/_input-group.scss */
+.input-group-black .form-control:focus {
+  -moz-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.75), inset 0 0 6px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.75), inset 0 0 6px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 6px 0px rgba(0, 0, 0, 0.75), inset 0 0 6px 0 rgba(0, 0, 0, 0.15);
+}
+
+/* line 211, ../scss/_input-group.scss */
 .input-group-underline .input-group-addon,
 .input-group-underline .input-group-addon:hover,
 .input-group-underline .input-group-addon:focus,
@@ -10116,24 +10636,24 @@ progress[value]::-moz-progress-bar {
   box-shadow: none;
 }
 
-/* line 246, ../scss/_input-group.scss */
+/* line 230, ../scss/_input-group.scss */
 .input-group-round > :first-child {
   border-top-left-radius: 0.25rem !important;
   border-bottom-left-radius: 0.25rem !important;
 }
-/* line 251, ../scss/_input-group.scss */
+/* line 235, ../scss/_input-group.scss */
 .input-group-round > :last-child,
 .input-group-round > :last-child * {
   border-top-right-radius: 0.25rem !important;
   border-bottom-right-radius: 0.25rem !important;
 }
 
-/* line 261, ../scss/_input-group.scss */
+/* line 245, ../scss/_input-group.scss */
 .input-group-circle > :first-child {
   border-top-left-radius: 1000px !important;
   border-bottom-left-radius: 1000px !important;
 }
-/* line 266, ../scss/_input-group.scss */
+/* line 250, ../scss/_input-group.scss */
 .input-group-circle > :last-child,
 .input-group-circle > :last-child * {
   border-top-right-radius: 1000px !important;
@@ -11130,6 +11650,16 @@ progress[value]::-moz-progress-bar {
 }
 
 /* line 221, ../scss/_loader.scss */
+.loader-white.loader-win-bar span[class*="l-"], .loader-white.loader-win-roll span[class*="l-"]::after {
+  background: #fff;
+}
+
+/* line 221, ../scss/_loader.scss */
+.loader-light.loader-win-bar span[class*="l-"], .loader-light.loader-win-roll span[class*="l-"]::after {
+  background: #dee2e6;
+}
+
+/* line 221, ../scss/_loader.scss */
 .loader-muted.loader-win-bar span[class*="l-"], .loader-muted.loader-win-roll span[class*="l-"]::after {
   background: #6c757d;
 }
@@ -11137,6 +11667,11 @@ progress[value]::-moz-progress-bar {
 /* line 221, ../scss/_loader.scss */
 .loader-dark.loader-win-bar span[class*="l-"], .loader-dark.loader-win-roll span[class*="l-"]::after {
   background: #212529;
+}
+
+/* line 221, ../scss/_loader.scss */
+.loader-black.loader-win-bar span[class*="l-"], .loader-black.loader-win-roll span[class*="l-"]::after {
+  background: #000;
 }
 
 /* line 1, ../scss/_popover.scss */
