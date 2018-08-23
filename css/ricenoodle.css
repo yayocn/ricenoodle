@@ -10805,6 +10805,42 @@ progress[value]::-moz-progress-bar {
 }
 
 /* line 69, ../scss/_carousel.scss */
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: .6s;
+  transition-property: opacity;
+}
+/* line 75, ../scss/_carousel.scss */
+.carousel-fade .carousel-item.active,
+.carousel-fade .carousel-item-next.carousel-item-left,
+.carousel-fade .carousel-item-prev.carousel-item-right {
+  opacity: 1;
+}
+/* line 81, ../scss/_carousel.scss */
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-right {
+  opacity: 0;
+}
+/* line 86, ../scss/_carousel.scss */
+.carousel-fade .carousel-item-next,
+.carousel-fade .carousel-item-prev,
+.carousel-fade .carousel-item.active,
+.carousel-fade .active.carousel-item-left,
+.carousel-fade .active.carousel-item-prev {
+  transform: translateX(0);
+}
+@supports (transform-style: preserve-3d) {
+  /* line 86, ../scss/_carousel.scss */
+  .carousel-fade .carousel-item-next,
+  .carousel-fade .carousel-item-prev,
+  .carousel-fade .carousel-item.active,
+  .carousel-fade .active.carousel-item-left,
+  .carousel-fade .active.carousel-item-prev {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+/* line 104, ../scss/_carousel.scss */
 .carousel-control-prev,
 .carousel-control-next {
   position: absolute;
@@ -10828,19 +10864,19 @@ progress[value]::-moz-progress-bar {
   opacity: .9;
 }
 
-/* line 93, ../scss/_carousel.scss */
+/* line 128, ../scss/_carousel.scss */
 .carousel-control-prev {
   left: 0;
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.001));
 }
 
-/* line 97, ../scss/_carousel.scss */
+/* line 132, ../scss/_carousel.scss */
 .carousel-control-next {
   right: 0;
   background: linear-gradient(270deg, rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.001));
 }
 
-/* line 103, ../scss/_carousel.scss */
+/* line 138, ../scss/_carousel.scss */
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   display: inline-block;
@@ -10850,17 +10886,17 @@ progress[value]::-moz-progress-bar {
   background-size: 100% 100%;
 }
 
-/* line 111, ../scss/_carousel.scss */
+/* line 146, ../scss/_carousel.scss */
 .carousel-control-prev-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
 }
 
-/* line 114, ../scss/_carousel.scss */
+/* line 149, ../scss/_carousel.scss */
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-/* line 124, ../scss/_carousel.scss */
+/* line 159, ../scss/_carousel.scss */
 .carousel-indicators {
   position: absolute;
   right: 0;
@@ -10874,7 +10910,7 @@ progress[value]::-moz-progress-bar {
   margin-left: 15%;
   list-style: none;
 }
-/* line 138, ../scss/_carousel.scss */
+/* line 173, ../scss/_carousel.scss */
 .carousel-indicators li {
   position: relative;
   flex: 0 1 auto;
@@ -10885,7 +10921,7 @@ progress[value]::-moz-progress-bar {
   text-indent: -999px;
   background-color: rgba(255, 255, 255, 0.5);
 }
-/* line 149, ../scss/_carousel.scss */
+/* line 184, ../scss/_carousel.scss */
 .carousel-indicators li::before {
   position: absolute;
   top: -10px;
@@ -10895,7 +10931,7 @@ progress[value]::-moz-progress-bar {
   height: 10px;
   content: "";
 }
-/* line 158, ../scss/_carousel.scss */
+/* line 193, ../scss/_carousel.scss */
 .carousel-indicators li::after {
   position: absolute;
   bottom: -10px;
@@ -10905,12 +10941,12 @@ progress[value]::-moz-progress-bar {
   height: 10px;
   content: "";
 }
-/* line 169, ../scss/_carousel.scss */
+/* line 204, ../scss/_carousel.scss */
 .carousel-indicators .active {
   background-color: #fff;
 }
 
-/* line 179, ../scss/_carousel.scss */
+/* line 214, ../scss/_carousel.scss */
 .carousel-caption {
   position: absolute;
   right: 15%;
