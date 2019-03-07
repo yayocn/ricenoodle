@@ -1,0 +1,44 @@
+/*!
+ * ricenoodle v1.1.0
+ */
+/* line 6, ../../scss/_breadcrumb.scss */
+.breadcrumb {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+  list-style: none;
+  font-size: 0.8125rem;
+}
+/* line 13, ../../scss/_breadcrumb.scss */
+.breadcrumb > li {
+  display: inline-block;
+}
+/* line 16, ../../scss/_breadcrumb.scss */
+.breadcrumb > li::after {
+  content: "/";
+  position: relative;
+  margin: 0 0.46875rem;
+  color: #ced4da;
+  font-size: 0.75rem;
+}
+/* line 24, ../../scss/_breadcrumb.scss */
+.breadcrumb > li:last-child {
+  color: #212529;
+}
+/* line 27, ../../scss/_breadcrumb.scss */
+.breadcrumb > li:last-child::after {
+  display: none;
+}
+/* line 32, ../../scss/_breadcrumb.scss */
+.breadcrumb > li.disabled {
+  cursor: default;
+  color: #ced4da;
+}
+/* line 38, ../../scss/_breadcrumb.scss */
+.breadcrumb a {
+  color: #14adea;
+}
+/* line 41, ../../scss/_breadcrumb.scss */
+.breadcrumb a:hover {
+  color: #1298ce;
+}

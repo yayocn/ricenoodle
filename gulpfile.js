@@ -12,10 +12,10 @@ var rename = require('gulp-rename');
 // compress the css file.
 //
 gulp.task('minifier', function() {
-  return gulp.src('css/*.css')
+  return gulp.src('css/watcher/*.css')
     .pipe(gulp.dest('dist/css/'))
     .pipe(cssmin())
-    .pipe(gulp.dest('css/dist/'))
+    .pipe(gulp.dest('css/min/'))
     .pipe(rename(function (path) {
       path.basename += '.min';
     }))

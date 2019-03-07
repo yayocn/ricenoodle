@@ -1,0 +1,18 @@
+/*!
+ * ricenoodle v1.1.0
+ */
+/* line 6, ../../scss/_media.scss */
+.media {
+  display: flex;
+  align-items: flex-start;
+}
+/* line 10, ../../scss/_media.scss */
+.media > img {
+  width: 64px;
+  height: 64px;
+}
+
+/* line 16, ../../scss/_media.scss */
+.media-body {
+  flex: 1;
+}

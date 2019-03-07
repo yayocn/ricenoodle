@@ -121,10 +121,10 @@
 //
 //
 .btn-group-sm .btn {
-  @extend .btn-sm;
+  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $font-size-xs, $line-height-sm);
 }
 .btn-group-lg .btn {
-  @extend .btn-lg;
+  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-lg, $line-height-lg);
 }
 
 

@@ -1,0 +1,66 @@
+/*!
+ * ricenoodle v1.1.0
+ */
+/* line 5, ../../scss/_dot.scss */
+.dot {
+  display: inline-block;
+  vertical-align: middle;
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 625rem;
+}
+
+/* line 3, ../../scss/mixins/_dot.scss */
+.dot-primary {
+  background-color: #007bff !important;
+}
+
+/* line 3, ../../scss/mixins/_dot.scss */
+.dot-secondary {
+  background-color: #375A7F !important;
+}
+
+/* line 3, ../../scss/mixins/_dot.scss */
+.dot-success {
+  background-color: #2EC6A0 !important;
+}
+
+/* line 3, ../../scss/mixins/_dot.scss */
+.dot-info {
+  background-color: #14adea !important;
+}
+
+/* line 3, ../../scss/mixins/_dot.scss */
+.dot-warning {
+  background-color: #ffc107 !important;
+}
+
+/* line 3, ../../scss/mixins/_dot.scss */
+.dot-danger {
+  background-color: #dc3545 !important;
+}
+
+/* line 3, ../../scss/mixins/_dot.scss */
+.dot-white {
+  background-color: #fff !important;
+}
+
+/* line 3, ../../scss/mixins/_dot.scss */
+.dot-light {
+  background-color: #dee2e6 !important;
+}
+
+/* line 3, ../../scss/mixins/_dot.scss */
+.dot-muted {
+  background-color: #6c757d !important;
+}
+
+/* line 3, ../../scss/mixins/_dot.scss */
+.dot-dark {
+  background-color: #212529 !important;
+}
+
+/* line 3, ../../scss/mixins/_dot.scss */
+.dot-black {
+  background-color: #000 !important;
+}

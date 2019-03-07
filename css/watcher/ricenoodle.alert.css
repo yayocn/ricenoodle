@@ -1,0 +1,210 @@
+/*!
+ * ricenoodle v1.1.0
+ */
+/* line 5, ../../scss/_alert.scss */
+.alert {
+  position: relative;
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 0.625rem;
+  border: 1px solid transparent;
+  -moz-border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+}
+
+/* line 14, ../../scss/_alert.scss */
+.alert-heading {
+  color: inherit;
+}
+
+/* line 20, ../../scss/_alert.scss */
+.alert-link {
+  font-weight: 700;
+}
+
+/* line 29, ../../scss/_alert.scss */
+.alert-dismissible {
+  padding-right: 3.8125rem;
+}
+/* line 33, ../../scss/_alert.scss */
+.alert-dismissible .close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0.75rem 1.25rem;
+  color: inherit;
+}
+/* line 40, ../../scss/_alert.scss */
+.alert-dismissible .close:focus, .alert-dismissible .close.focus, .alert-dismissible .close:active, .alert-dismissible .close.active {
+  outline: 0;
+}
+/* line 47, ../../scss/_alert.scss */
+.alert-dismissible .close [class*="mark-"] {
+  vertical-align: top;
+  line-height: 1.5;
+}
+
+/* line 59, ../../scss/_alert.scss */
+.alert-primary {
+  background-color: #8fc5ff;
+  border: 1px solid #7abaff;
+  color: #004085;
+}
+/* line 9, ../../scss/mixins/_alert.scss */
+.alert-primary hr {
+  border-top-color: #61adff;
+}
+/* line 12, ../../scss/mixins/_alert.scss */
+.alert-primary .alert-link {
+  color: #002752;
+}
+
+/* line 59, ../../scss/_alert.scss */
+.alert-secondary {
+  background-color: #a7b6c7;
+  border: 1px solid #97a9bc;
+  color: #1d2f42;
+}
+/* line 9, ../../scss/mixins/_alert.scss */
+.alert-secondary hr {
+  border-top-color: #879cb2;
+}
+/* line 12, ../../scss/mixins/_alert.scss */
+.alert-secondary .alert-link {
+  color: #0d161f;
+}
+
+/* line 59, ../../scss/_alert.scss */
+.alert-success {
+  background-color: #a3e6d5;
+  border: 1px solid #92e1ce;
+  color: #186753;
+}
+/* line 9, ../../scss/mixins/_alert.scss */
+.alert-success hr {
+  border-top-color: #7edbc5;
+}
+/* line 12, ../../scss/mixins/_alert.scss */
+.alert-success .alert-link {
+  color: #0e3e32;
+}
+
+/* line 59, ../../scss/_alert.scss */
+.alert-info {
+  background-color: #98dbf6;
+  border: 1px solid #85d4f4;
+  color: #0a5a7a;
+}
+/* line 9, ../../scss/mixins/_alert.scss */
+.alert-info hr {
+  border-top-color: #6eccf2;
+}
+/* line 12, ../../scss/mixins/_alert.scss */
+.alert-info .alert-link {
+  color: #06374b;
+}
+
+/* line 59, ../../scss/_alert.scss */
+.alert-warning {
+  background-color: #ffe492;
+  border: 1px solid #ffdf7e;
+  color: #856404;
+}
+/* line 9, ../../scss/mixins/_alert.scss */
+.alert-warning hr {
+  border-top-color: #ffd965;
+}
+/* line 12, ../../scss/mixins/_alert.scss */
+.alert-warning .alert-link {
+  color: #533f03;
+}
+
+/* line 59, ../../scss/_alert.scss */
+.alert-danger {
+  background-color: #f0a6ad;
+  border: 1px solid #ed969e;
+  color: #721c24;
+}
+/* line 9, ../../scss/mixins/_alert.scss */
+.alert-danger hr {
+  border-top-color: #e9808a;
+}
+/* line 12, ../../scss/mixins/_alert.scss */
+.alert-danger .alert-link {
+  color: #491217;
+}
+
+/* line 59, ../../scss/_alert.scss */
+.alert-white {
+  background-color: white;
+  border: 1px solid white;
+  color: #858585;
+}
+/* line 9, ../../scss/mixins/_alert.scss */
+.alert-white hr {
+  border-top-color: #f2f2f2;
+}
+/* line 12, ../../scss/mixins/_alert.scss */
+.alert-white .alert-link {
+  color: #6c6c6c;
+}
+
+/* line 59, ../../scss/_alert.scss */
+.alert-light {
+  background-color: #f0f2f4;
+  border: 1px solid #eef0f2;
+  color: #737678;
+}
+/* line 9, ../../scss/mixins/_alert.scss */
+.alert-light hr {
+  border-top-color: #e0e3e7;
+}
+/* line 12, ../../scss/mixins/_alert.scss */
+.alert-light .alert-link {
+  color: #5a5c5e;
+}
+
+/* line 59, ../../scss/_alert.scss */
+.alert-muted {
+  background-color: #bec2c6;
+  border: 1px solid #b3b7bb;
+  color: #383d41;
+}
+/* line 9, ../../scss/mixins/_alert.scss */
+.alert-muted hr {
+  border-top-color: #a6aaaf;
+}
+/* line 12, ../../scss/mixins/_alert.scss */
+.alert-muted .alert-link {
+  color: #202326;
+}
+
+/* line 59, ../../scss/_alert.scss */
+.alert-dark {
+  background-color: #9d9fa1;
+  border: 1px solid #8c8e90;
+  color: #111315;
+}
+/* line 9, ../../scss/mixins/_alert.scss */
+.alert-dark hr {
+  border-top-color: #7f8183;
+}
+/* line 12, ../../scss/mixins/_alert.scss */
+.alert-dark .alert-link {
+  color: black;
+}
+
+/* line 59, ../../scss/_alert.scss */
+.alert-black {
+  background-color: #8f8f8f;
+  border: 1px solid #7a7a7a;
+  color: black;
+}
+/* line 9, ../../scss/mixins/_alert.scss */
+.alert-black hr {
+  border-top-color: #6d6d6d;
+}
+/* line 12, ../../scss/mixins/_alert.scss */
+.alert-black .alert-link {
+  color: black;
+}

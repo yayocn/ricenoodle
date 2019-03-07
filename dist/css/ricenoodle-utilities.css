@@ -787,7 +787,7 @@ output {
   display: inline !important;
 }
 
-/* line 77, ../scss/mixins/_utilities.scss */
+/* line 77, ../scss/mixins/_utility.scss */
 .bg-primary {
   background-color: #007bff !important;
 }
@@ -797,7 +797,7 @@ a.bg-primary:focus, a.bg-primary:hover {
   background-color: #0062cc !important;
 }
 
-/* line 77, ../scss/mixins/_utilities.scss */
+/* line 77, ../scss/mixins/_utility.scss */
 .bg-secondary {
   background-color: #375A7F !important;
 }
@@ -807,7 +807,7 @@ a.bg-secondary:focus, a.bg-secondary:hover {
   background-color: #28415b !important;
 }
 
-/* line 77, ../scss/mixins/_utilities.scss */
+/* line 77, ../scss/mixins/_utility.scss */
 .bg-success {
   background-color: #2EC6A0 !important;
 }
@@ -817,7 +817,7 @@ a.bg-success:focus, a.bg-success:hover {
   background-color: #249d7f !important;
 }
 
-/* line 77, ../scss/mixins/_utilities.scss */
+/* line 77, ../scss/mixins/_utility.scss */
 .bg-info {
   background-color: #14adea !important;
 }
@@ -827,7 +827,7 @@ a.bg-info:focus, a.bg-info:hover {
   background-color: #108abb !important;
 }
 
-/* line 77, ../scss/mixins/_utilities.scss */
+/* line 77, ../scss/mixins/_utility.scss */
 .bg-warning {
   background-color: #ffc107 !important;
 }
@@ -837,7 +837,7 @@ a.bg-warning:focus, a.bg-warning:hover {
   background-color: #d39e00 !important;
 }
 
-/* line 77, ../scss/mixins/_utilities.scss */
+/* line 77, ../scss/mixins/_utility.scss */
 .bg-danger {
   background-color: #dc3545 !important;
 }
@@ -847,7 +847,7 @@ a.bg-danger:focus, a.bg-danger:hover {
   background-color: #bd2130 !important;
 }
 
-/* line 77, ../scss/mixins/_utilities.scss */
+/* line 77, ../scss/mixins/_utility.scss */
 .bg-white {
   background-color: #fff !important;
 }
@@ -857,7 +857,7 @@ a.bg-white:focus, a.bg-white:hover {
   background-color: #e6e6e6 !important;
 }
 
-/* line 77, ../scss/mixins/_utilities.scss */
+/* line 77, ../scss/mixins/_utility.scss */
 .bg-light {
   background-color: #dee2e6 !important;
 }
@@ -867,7 +867,7 @@ a.bg-light:focus, a.bg-light:hover {
   background-color: #c1c9d0 !important;
 }
 
-/* line 77, ../scss/mixins/_utilities.scss */
+/* line 77, ../scss/mixins/_utility.scss */
 .bg-muted {
   background-color: #6c757d !important;
 }
@@ -877,7 +877,7 @@ a.bg-muted:focus, a.bg-muted:hover {
   background-color: #545b62 !important;
 }
 
-/* line 77, ../scss/mixins/_utilities.scss */
+/* line 77, ../scss/mixins/_utility.scss */
 .bg-dark {
   background-color: #212529 !important;
 }
@@ -887,7 +887,7 @@ a.bg-dark:focus, a.bg-dark:hover {
   background-color: #0a0c0d !important;
 }
 
-/* line 77, ../scss/mixins/_utilities.scss */
+/* line 77, ../scss/mixins/_utility.scss */
 .bg-black {
   background-color: #000 !important;
 }
@@ -897,7 +897,7 @@ a.bg-black:focus, a.bg-black:hover {
   background-color: black !important;
 }
 
-/* line 77, ../scss/mixins/_utilities.scss */
+/* line 77, ../scss/mixins/_utility.scss */
 .bg-transparent {
   background-color: transparent !important;
 }
@@ -907,7 +907,7 @@ a.bg-transparent:focus, a.bg-transparent:hover {
   background-color: transparent !important;
 }
 
-/* line 9, ../scss/mixins/_utilities.scss */
+/* line 9, ../scss/mixins/_utility.scss */
 .clearfix::after {
   display: block;
   clear: both;

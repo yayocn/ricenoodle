@@ -1,0 +1,167 @@
+/*!
+ * ricenoodle v1.1.0
+ */
+/* line 6, ../../scss/_badge.scss */
+.badge {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  -moz-border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+}
+/* line 16, ../../scss/_badge.scss */
+.badge:empty {
+  display: none;
+}
+
+/* line 21, ../../scss/_badge.scss */
+.btn .badge {
+  position: relative;
+  top: -1px;
+}
+
+/* line 26, ../../scss/_badge.scss */
+.badge-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  -moz-border-radius: 6.25rem;
+  -webkit-border-radius: 6.25rem;
+  border-radius: 6.25rem;
+}
+
+/* line 36, ../../scss/_badge.scss */
+.badge-primary {
+  color: #fff;
+  background-color: #007bff;
+}
+/* line 18, ../../scss/mixins/_hover.scss */
+.badge-primary[href]:focus, .badge-primary[href]:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0062cc;
+}
+
+/* line 36, ../../scss/_badge.scss */
+.badge-secondary {
+  color: #fff;
+  background-color: #375A7F;
+}
+/* line 18, ../../scss/mixins/_hover.scss */
+.badge-secondary[href]:focus, .badge-secondary[href]:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #28415b;
+}
+
+/* line 36, ../../scss/_badge.scss */
+.badge-success {
+  color: #fff;
+  background-color: #2EC6A0;
+}
+/* line 18, ../../scss/mixins/_hover.scss */
+.badge-success[href]:focus, .badge-success[href]:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #249d7f;
+}
+
+/* line 36, ../../scss/_badge.scss */
+.badge-info {
+  color: #fff;
+  background-color: #14adea;
+}
+/* line 18, ../../scss/mixins/_hover.scss */
+.badge-info[href]:focus, .badge-info[href]:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #108abb;
+}
+
+/* line 36, ../../scss/_badge.scss */
+.badge-warning {
+  color: #212529;
+  background-color: #ffc107;
+}
+/* line 18, ../../scss/mixins/_hover.scss */
+.badge-warning[href]:focus, .badge-warning[href]:hover {
+  color: #212529;
+  text-decoration: none;
+  background-color: #d39e00;
+}
+
+/* line 36, ../../scss/_badge.scss */
+.badge-danger {
+  color: #fff;
+  background-color: #dc3545;
+}
+/* line 18, ../../scss/mixins/_hover.scss */
+.badge-danger[href]:focus, .badge-danger[href]:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #bd2130;
+}
+
+/* line 36, ../../scss/_badge.scss */
+.badge-white {
+  color: #212529;
+  background-color: #fff;
+}
+/* line 18, ../../scss/mixins/_hover.scss */
+.badge-white[href]:focus, .badge-white[href]:hover {
+  color: #212529;
+  text-decoration: none;
+  background-color: #e6e6e6;
+}
+
+/* line 36, ../../scss/_badge.scss */
+.badge-light {
+  color: #212529;
+  background-color: #dee2e6;
+}
+/* line 18, ../../scss/mixins/_hover.scss */
+.badge-light[href]:focus, .badge-light[href]:hover {
+  color: #212529;
+  text-decoration: none;
+  background-color: #c1c9d0;
+}
+
+/* line 36, ../../scss/_badge.scss */
+.badge-muted {
+  color: #fff;
+  background-color: #6c757d;
+}
+/* line 18, ../../scss/mixins/_hover.scss */
+.badge-muted[href]:focus, .badge-muted[href]:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #545b62;
+}
+
+/* line 36, ../../scss/_badge.scss */
+.badge-dark {
+  color: #fff;
+  background-color: #212529;
+}
+/* line 18, ../../scss/mixins/_hover.scss */
+.badge-dark[href]:focus, .badge-dark[href]:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #0a0c0d;
+}
+
+/* line 36, ../../scss/_badge.scss */
+.badge-black {
+  color: #fff;
+  background-color: #000;
+}
+/* line 18, ../../scss/mixins/_hover.scss */
+.badge-black[href]:focus, .badge-black[href]:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: black;
+}
