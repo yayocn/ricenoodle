@@ -1,7 +1,7 @@
 //
 // Font size
 //
-@for $size from 12 through 20 {
+@for $size from 10 through 30 {
   .font-#{$size} {
     font-size: $size * 1px !important;
   }
@@ -9,6 +9,14 @@
 @for $multiple from 1 through 10 {
   .font-#{$multiple}x {
     font-size: $multiple * $font-size-base !important;
+  }
+
+  .font-vh-#{$multiple} {
+    font-size: $multiple * 10vh !important;
+  }
+
+  .font-vw-#{$multiple} {
+    font-size: $multiple * 10vw !important;
   }
 }
 

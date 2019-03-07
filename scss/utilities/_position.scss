@@ -33,8 +33,10 @@ $type: static, relative, absolute, fixed, sticky;
 //
 $position: top, right, bottom, left;
 @each $p in $position {
-  .pt-#{$p} {
-    #{$p}: 0 !important;
+  @for $size from 0 through 30 {
+    .#{$p}-#{$size} {
+      #{$p}: $size * 1px !important;
+    }
   }
 }
 

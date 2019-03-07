@@ -23,6 +23,7 @@ $border-list: map-merge($theme-colors, ("transparent": $transparent));
 
 .border-round-0 { border-radius: $border-radius-no !important; }
 .border-round-circle { border-radius: $border-radius-circle !important; }
+.border-round-ellipse { border-radius: $border-radius-ellipse !important; }
 .border-round { border-radius: $border-radius !important; }
 .border-round-top {
   border-top-left-radius: $border-radius !important;
@@ -39,6 +40,18 @@ $border-list: map-merge($theme-colors, ("transparent": $transparent));
 .border-round-left {
   border-top-left-radius: $border-radius !important;
   border-bottom-left-radius: $border-radius !important;
+}
+.border-round-top-left {
+  border-top-left-radius: $border-radius !important;
+}
+.border-round-top-right {
+  border-top-right-radius: $border-radius !important;
+}
+.border-round-bottom-left {
+  border-bottom-left-radius: $border-radius !important;
+}
+.border-round-bottom-right {
+  border-bottom-right-radius: $border-radius !important;
 }
 
 //

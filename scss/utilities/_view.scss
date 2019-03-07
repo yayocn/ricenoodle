@@ -36,7 +36,7 @@
   @include display-flex($display: flex !important);
 }
 
-.flex-inline {
+.inline-flex {
   @include display-flex($display: inline-flex !important);
 }
 
@@ -44,7 +44,7 @@
   display: block !important;
 }
 
-.block-inline {
+.inline-block {
   display: inline-block !important;
 }
 

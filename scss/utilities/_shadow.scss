@@ -4,7 +4,7 @@
 
 $shadow-list: (
   '': $shadow,
-  none: $shadow-none,
+  0: $shadow-none,
   sm: $shadow-sm,
   lg: $shadow-lg,
 );
