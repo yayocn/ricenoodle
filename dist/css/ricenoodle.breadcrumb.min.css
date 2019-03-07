@@ -1,0 +1,3 @@
+/*!
+ * ricenoodle v1.1.0
+ */.breadcrumb{display:flex;flex-wrap:wrap;margin-bottom:15px;list-style:none;font-size:.8125rem}.breadcrumb>li{display:inline-block}.breadcrumb>li::after{content:"/";position:relative;margin:0 .46875rem;color:#ced4da;font-size:.75rem}.breadcrumb>li:last-child{color:#212529}.breadcrumb>li:last-child::after{display:none}.breadcrumb>li.disabled{cursor:default;color:#ced4da}.breadcrumb a{color:#14adea}.breadcrumb a:hover{color:#1298ce}

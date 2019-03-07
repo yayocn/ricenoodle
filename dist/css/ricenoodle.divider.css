@@ -1,0 +1,29 @@
+/*!
+ * ricenoodle v1.1.0
+ */
+/* line 4, ../../scss/_divider.scss */
+.divider {
+  display: block;
+  height: 1px;
+  border-top: 1px solid #dee2e6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 12, ../../scss/_divider.scss */
+.divider-lg {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 17, ../../scss/_divider.scss */
+.divider-sm {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* line 22, ../../scss/_divider.scss */
+.divider-bold {
+  height: 2px;
+  border-top-width: 2px;
+}

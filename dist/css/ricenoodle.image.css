@@ -1,0 +1,43 @@
+/*!
+ * ricenoodle v1.1.0
+ */
+/* line 8, ../../scss/_image.scss */
+.img-fluid {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 14, ../../scss/_image.scss */
+.img-thumbnail {
+  padding: 4px;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  -moz-border-radius: 0.25rem;
+  -webkit-border-radius: 0.25rem;
+  border-radius: 0.25rem;
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075);
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* line 29, ../../scss/_image.scss */
+.figure {
+  display: inline-block;
+  margin: 0 0 0.625rem;
+}
+
+/* line 34, ../../scss/_image.scss */
+.figure-img {
+  margin-bottom: 7.5px;
+  line-height: 1;
+}
+
+/* line 39, ../../scss/_image.scss */
+.figure-caption {
+  font-size: 90%;
+  color: #6c757d;
+}
