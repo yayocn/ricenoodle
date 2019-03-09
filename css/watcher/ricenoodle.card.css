@@ -1,0 +1,135 @@
+/*!
+ * ricenoodle v1.1.0
+ */
+/* line 4, ../../scss/_card.scss */
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+/* line 14, ../../scss/_card.scss */
+.card > hr {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* line 20, ../../scss/_card.scss */
+.card-body {
+  flex: 1 1 auto;
+  padding: 0.78125rem;
+}
+
+/* line 25, ../../scss/_card.scss */
+.card-title {
+  margin-bottom: 0.46875rem;
+}
+
+/* line 29, ../../scss/_card.scss */
+.card-subtitle {
+  margin-top: -0.23438rem;
+  margin-bottom: 0;
+}
+
+/* line 34, ../../scss/_card.scss */
+.card-text:last-child {
+  margin-bottom: 0;
+}
+
+/* line 8, ../../scss/mixins/_hover.scss */
+.card-link:hover {
+  text-decoration: none;
+}
+/* line 43, ../../scss/_card.scss */
+.card-link + .card-link {
+  margin-left: 0.78125rem;
+}
+
+/* line 52, ../../scss/_card.scss */
+.card-header {
+  padding: 0.46875rem 0.78125rem;
+  margin-bottom: 0;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* line 59, ../../scss/_card.scss */
+.card-footer {
+  padding: 0.46875rem 0.78125rem;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-top: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+/* line 69, ../../scss/_card.scss */
+.card-deck {
+  display: flex;
+  flex-direction: column;
+}
+/* line 73, ../../scss/_card.scss */
+.card-deck .card {
+  margin-bottom: 0.9375rem;
+}
+@media (min-width: 576px) {
+  /* line 69, ../../scss/_card.scss */
+  .card-deck {
+    flex-flow: row wrap;
+    margin-right: -0.9375rem;
+    margin-left: -0.9375rem;
+  }
+  /* line 82, ../../scss/_card.scss */
+  .card-deck .card {
+    display: flex;
+    flex: 1 0 0%;
+    flex-direction: column;
+    margin-right: 0.9375rem;
+    margin-bottom: 0;
+    margin-left: 0.9375rem;
+  }
+}
+
+/* line 98, ../../scss/_card.scss */
+.card-group {
+  display: flex;
+  flex-direction: column;
+}
+/* line 104, ../../scss/_card.scss */
+.card-group > .card {
+  margin-bottom: 0.9375rem;
+}
+@media (min-width: 576px) {
+  /* line 98, ../../scss/_card.scss */
+  .card-group {
+    flex-flow: row wrap;
+  }
+  /* line 112, ../../scss/_card.scss */
+  .card-group > .card {
+    flex: 1 0 0%;
+    margin-bottom: 0;
+  }
+  /* line 117, ../../scss/_card.scss */
+  .card-group > .card + .card {
+    margin-left: 0;
+    border-left: 0;
+  }
+}
+
+/* line 183, ../../scss/_card.scss */
+.card-columns .card {
+  margin-bottom: 0.46875rem;
+}
+@media (min-width: 576px) {
+  /* line 182, ../../scss/_card.scss */
+  .card-columns {
+    column-count: 3;
+    column-gap: 0.78125rem;
+  }
+  /* line 191, ../../scss/_card.scss */
+  .card-columns .card {
+    display: inline-block;
+    width: 100%;
+  }
+}

@@ -127,13 +127,6 @@
 
 // style
 //
-@include list-group-variant(primary, $brand-primary, $list-group-style-color);
-@include list-group-variant(secondary, $brand-secondary, $list-group-style-color);
-@include list-group-variant(success, $brand-success, $list-group-style-color);
-@include list-group-variant(info, $brand-info, $list-group-style-color);
-@include list-group-variant(warning, $brand-warning, $list-group-style-color);
-@include list-group-variant(danger, $brand-danger, $list-group-style-color);
-@include list-group-variant(light, $light, $muted);
-@include list-group-variant(muted, $muted, $list-group-style-color);
-@include list-group-variant(dark, $dark, $list-group-style-color);
-@include list-group-variant(black, $black, $list-group-style-color);
+@each $name, $bg, $color in $list-group-theme {
+  @include list-group-variant($name, $bg, $color);
+}

@@ -29,6 +29,9 @@
 
 @mixin create-pagination-state($name, $color) {
   $hover-bg: rgba($color, .2);
+  @if $color == $white {
+    $hover-bg: $transparent;
+  }
   $border-color: rgba($color, .3);
   .pagination-#{$name} {
     > li {
@@ -74,6 +77,24 @@
       > .active > span {
         @include plain-hover-focus {
           border-color: $color;
+        }
+      }
+    }
+
+    @if $color == $white {
+      > .active > a,
+      > .active > span {
+        @include plain-hover-focus {
+          background-color: $transparent;
+        }
+      }
+
+      > .disabled {
+        > span,
+        > a {
+          @include plain-hover-focus {
+            background-color: $transparent;
+          }
         }
       }
     }

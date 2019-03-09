@@ -13,7 +13,9 @@
 .border-bottom-0 { border-bottom: 0 !important; }
 .border-left-0   { border-left: 0 !important; }
 
-@each $color, $value in $theme-colors {
+$border-list: () !default;
+$border-list: map-merge($theme-colors, ("transparent": $transparent));
+@each $color, $value in $border-list {
   .border-#{$color} {
     border-color: $value !important;
   }
@@ -21,6 +23,7 @@
 
 .border-round-0 { border-radius: $border-radius-no !important; }
 .border-round-circle { border-radius: $border-radius-circle !important; }
+.border-round-ellipse { border-radius: $border-radius-ellipse !important; }
 .border-round { border-radius: $border-radius !important; }
 .border-round-top {
   border-top-left-radius: $border-radius !important;
@@ -38,6 +41,18 @@
   border-top-left-radius: $border-radius !important;
   border-bottom-left-radius: $border-radius !important;
 }
+.border-round-top-left {
+  border-top-left-radius: $border-radius !important;
+}
+.border-round-top-right {
+  border-top-right-radius: $border-radius !important;
+}
+.border-round-bottom-left {
+  border-bottom-left-radius: $border-radius !important;
+}
+.border-round-bottom-right {
+  border-bottom-right-radius: $border-radius !important;
+}
 
 //
 // Style
@@ -50,5 +65,12 @@ $style-list: (
 @each $name, $value in $style-list {
   .border-#{$name} {
     border-style: $value !important;
+  }
+}
+
+// Size
+@for $i from 1 through 10 {
+  .border-#{$i} {
+    border-width: #{$i}px !important;
   }
 }

@@ -1,0 +1,584 @@
+// Forms
+//
+//
+//
+
+//
+// form-group
+//
+
+.form-group {
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-bottom: $space-base * 2;
+
+  font-size: $font-size-base;
+}
+
+.form-group-sm {
+  font-size: $font-size-sm;
+
+  & .form-control {
+    padding: $input-padding-y-sm $input-padding-x-sm;
+    line-height: $line-height-sm;
+    @if $enable-rounded {
+      @include border-radius($input-border-radius-sm); // compass
+    }
+  }
+}
+
+.form-group-lg {
+  font-size: $font-size-lg;
+
+  & .form-control {
+    padding: $input-padding-y-lg $input-padding-x-lg;
+    line-height: $line-height-lg;
+    @if $enable-rounded {
+      @include border-radius($input-border-radius-lg); // compass
+    }
+  }
+}
+
+.form-group-hg {
+  font-size: $font-size-hg;
+
+  & .form-control {
+    padding: $input-padding-y-hg $input-padding-x-hg;
+    line-height: $line-height-lg;
+    @if $enable-rounded {
+      @include border-radius($input-border-radius-lg); // compass
+    }
+  }
+}
+
+
+//
+// textual form controls
+//
+
+.form-control {
+  display: block;
+  width: 100%;
+  padding: $input-padding-y $input-padding-x;
+  font-size: $font-size-base;
+  line-height: $line-height;
+  color: $input-color;
+  background-color: $input-bg;
+  background-clip: padding-box;
+  border: $border-width solid $input-border-color;
+
+  @include transition($input-transition);
+
+  // Unstyle the caret on `<select>`s in IE10+.
+  &::-ms-expand {
+    background-color: transparent;
+    border: 0;
+  }
+
+  // Customize the `:focus` state to imitate native WebKit styles.
+  @include form-control-focus();
+
+  // Placeholder
+  &::placeholder {
+    color: $input-placeholder-color;
+    opacity: 1;
+  }
+
+  // Disabled and read-only inputs
+  //
+  // HTML5 says that controls under a form-group > legend:first-child won't be
+  // disabled if the form-group is disabled. Due to implementation difficulty, we
+  // don't honor that edge case; we style them as disabled anyway.
+  &:disabled,
+  &[readonly] {
+    background-color: $input-bg-disabled;
+    opacity: 1;
+  }
+}
+
+.form-control-sm {
+  padding: $input-padding-y-sm $input-padding-x-sm;
+  font-size: $font-size-xs;
+  line-height: $line-height;
+  @if $enable-rounded {
+    @include border-radius($input-border-radius-sm);
+  }
+}
+
+.form-control-lg {
+  padding: $input-padding-y-lg $input-padding-x-lg;
+  font-size: $font-size-lg;
+  line-height: $line-height;
+  @if $enable-rounded {
+    @include border-radius($input-border-radius-lg);
+  }
+}
+
+.form-control-hg {
+  padding: $input-padding-y-hg $input-padding-x-hg;
+  font-size: $font-size-hg;
+  line-height: $input-hg-line-height;
+  @if $enable-rounded {
+    @include border-radius($input-border-radius-lg);
+  }
+}
+
+.form-group > label {
+  display: inline-block;
+  font-weight: 700;
+  max-width: 100%;
+  line-height: $line-height * 1.5;
+}
+
+
+// Define the label style of form-group
+//.form-control-label {
+//  padding: ($input-padding-y + $border-width) $input-padding-x;
+//  margin-bottom: 0 !important;
+//}
+
+// Select
+//
+.select {
+  position: relative;
+  width: 100%;
+}
+select.form-control {
+  // remove the default style
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+
+  & + div[class^="triangle"] {
+    position: absolute;
+    top: 43%;
+    right: 10px;
+  }
+
+  & > option {
+    padding-left: $space-default;
+    padding-right: $space-default;
+  }
+}
+
+//
+// Checkbox and radio
+//
+
+
+.radio,
+.checkbox {
+  position: relative;
+  display: block;
+  width: 100%;
+  margin-bottom: $space-base * 2;
+}
+
+.radio,
+.checkbox {
+  > label {
+    margin-bottom: 0;
+    color: rgb(68,68,68);
+    font-size: $input-checkbox-font-size;
+    font-weight: 400;
+    cursor: pointer;
+    z-index: 10;
+
+    &:before {
+      content: "";
+      display: inline-block;
+      position: relative;
+      top: -1px;
+      margin-right: 10px;
+      width: 18px;
+      height: 18px;
+
+      box-sizing: border-box;
+      vertical-align: middle;
+      border: 1px solid #ccc;
+      line-height: 15px;
+    }
+  }
+
+  input:not(:disabled) + label:hover:before {
+    border-width: 2px;
+  }
+
+  input:checked + label:before {
+    content: '\2713';
+    font-size: 12px;
+    border: 2px solid #777;
+    color: #333;
+    text-align: center;
+  }
+}
+
+.radio {
+  > label:before {
+    @include border-radius($border-radius-hg);
+  }
+}
+
+.radio input[type="radio"],
+.checkbox input[type="checkbox"] {
+  position: absolute;
+  top: 4px;
+  width: 20px;
+  height: 20px;
+  opacity: 0;
+  z-index: 11;
+}
+
+.radio + .radio,
+.checkbox + .checkbox {
+  margin-top: $font-scale * -.25rem;
+}
+
+// Radios and checkboxes on same line
+.radio[class*="inline"],
+.checkbox[class*="inline"] {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 0;
+  margin-right: $font-scale * .75rem;
+  width: auto;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+.radio[class*="inline"] + .radio[class*="inline"],
+.checkbox[class*="inline"] + .checkbox[class*="inline"] {
+  margin-left: 15px;
+  margin-top: 0;
+}
+
+// Situation
+//
+//
+@each $name, $value in $theme-colors {
+  @include radio-checkbox-variant('#{$name}', $value);
+}
+
+// switch checkbox
+//
+.checkbox-switch {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 48px;
+  height: 24px;
+  margin-bottom: $space-base * 2;
+
+  & input[type="checkbox"] {
+    opacity: 0;
+  }
+  & input[type="checkbox"]:checked + label,
+  & input[type="checkbox"]:not(:checked) + label {
+    background-color: #e0e0e0;
+    border-radius: 1000px;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    text-indent: -9999px;
+    width: 48px;
+    height: 24px;
+    -webkit-transition: background-color 0.3s;
+    transition: background-color 0.3s;
+  }
+
+  & input[type="checkbox"]:checked + label:after,
+  & input[type="checkbox"]:not(:checked) + label:after {
+    background-color: #fff;
+    border-radius: 1000px;
+    content: "";
+    left: 1px;
+    position: absolute;
+    top: 1px;
+    width: 22px;
+    height: 22px;
+    -webkit-transition: left 0.3s;
+    transition: left 0.3s;
+  }
+
+  & input[type="checkbox"]:checked + label {
+    background-color: $brand-primary;
+  }
+
+  & input[type="checkbox"]:checked + label:after {
+    left: 25px;
+  }
+
+  &.disabled input[type="checkbox"],
+  &.disabled input[type="checkbox"] + label {
+    cursor: $cursor-disabled;
+    background-color: #e0e0e0;
+  }
+
+  &.disabled input[type="checkbox"],
+  &.disabled input[type="checkbox"] + label:after {
+    cursor: $cursor-disabled;
+    left: 1px;
+  }
+}
+.checkbox-switch-lg {
+  width: 64px;
+  height: 32px;
+
+  & input[type="checkbox"]:checked + label,
+  & input[type="checkbox"]:not(:checked) + label {
+    width: 64px;
+    height: 32px;
+  }
+
+  & input[type="checkbox"]:checked + label:after,
+  & input[type="checkbox"]:not(:checked) + label:after {
+    width: 30px;
+    height: 30px;
+  }
+  & input[type="checkbox"]:checked + label:after {
+    left: 33px;
+  }
+}
+.checkbox-switch-sm {
+  width: 32px;
+  height: 16px;
+
+  & input[type="checkbox"]:checked + label,
+  & input[type="checkbox"]:not(:checked) + label {
+    width: 32px;
+    height: 16px;
+  }
+
+  & input[type="checkbox"]:checked + label:after,
+  & input[type="checkbox"]:not(:checked) + label:after {
+    width: 14px;
+    height: 14px;
+  }
+  & input[type="checkbox"]:checked + label:after {
+    left: 17px;
+  }
+}
+// Situation
+//
+@each $name, $value in $theme-colors {
+  @include checkbox-switch-variant('#{$name}', $value);
+}
+
+// Disabled
+//
+input[type="radio"],
+input[type="checkbox"] {
+  &:hover {
+    cursor: pointer;
+
+    + label:before {
+      border-width: 2px;
+    }
+  }
+
+  &:disabled,
+  &.disabled,
+  .form-group[disabled] & {
+    cursor: $cursor-disabled;
+  }
+}
+
+.radio,
+.checkbox {
+  &.disabled,
+  .form-group[disabled] & {
+    label {
+      cursor: $cursor-disabled;
+      opacity: .6;
+    }
+  }
+}
+
+//
+// File upload
+//
+.form-file {
+  position: relative;
+  input[type="file"] {
+    position: absolute;
+    height: 100%;
+    opacity: 0;
+    background-color: transparent;
+  }
+  .file-surface {
+    width: 100%;
+    height: 100%;
+    padding: $font-scale * .37rem $font-scale * .75rem;
+    background-color: $brand-primary;
+    @if $enable-rounded {
+      @include border-radius($border-radius);
+    }
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  &.disabled .file-surface,
+  &:disabled .file-surface,
+  input[type="file"].disabled + .file-surface,
+  input[type="file"]:disabled + .file-surface {
+    cursor: default;
+    opacity: $btn-disabled-opacity;
+  }
+}
+
+// Situation
+//
+
+//
+// Form status
+// success, warning and error
+
+// Form control status
+// this status can't influence the lable of this group.
+.form-control-success,
+.form-control-warning,
+.form-control-error {
+  padding-right: ($input-padding-x * 3);
+  background-position: center right $input-padding-y;
+  background-size: calc(#{$input-height} * .65) calc(#{$input-height} * .65);
+  background-repeat: no-repeat;
+}
+
+.form-control-success {
+  @include form-control-status(success, $brand-success);
+  background-image: url($form-icon-success);
+}
+.form-control-warning {
+  @include form-control-status(warning, $brand-warning);
+  background-image: url($form-icon-warning);
+}
+.form-control-error {
+  @include form-control-status(error, $brand-danger);
+  background-image: url($form-icon-error);
+}
+
+// Form group status {
+//
+.form-group-success,
+.form-group-warning,
+.form-group-error {
+  .form-control {
+    padding-right: ($input-padding-x * 3);
+    background-position: center right $input-padding-y;
+    background-size: calc(#{$input-height} * .65) calc(#{$input-height} * .65);
+    background-repeat: no-repeat;
+  }
+}
+.form-group-success {
+  color: $brand-success;
+  @include fieldset-status(success, $brand-success);
+
+  .form-control {
+    background-image: url($form-icon-success);
+  }
+}
+
+.form-group-warning {
+  color: $brand-warning;
+  @include fieldset-status(warning, $brand-warning);
+
+  .form-control {
+    background-image: url($form-icon-warning);
+  }
+}
+
+.form-group-error {
+  color: $brand-danger;
+  @include fieldset-status(error, $brand-danger);
+
+  .form-control {
+    background-image: url($form-icon-error);
+  }
+}
+
+
+// Form horizontal
+//
+.form-hz {
+  .form-group {
+    margin-left: ($grid-gutter-width / -2);
+    margin-right: ($grid-gutter-width / -2);
+    overflow: auto;
+    zoom: 1;
+
+    .form-control-label {
+      text-align: right;
+    }
+  }
+}
+
+// Form inline
+// Inline forms' min width is bigger than 34em.
+//
+.form-inline {
+
+  // `form-inline` will work when the device width more than `sm`.
+  //
+  @include media-breakpoint-up(sm) {
+    .form-group {
+      display: inline-block;
+      margin-bottom: 0;
+      vertical-align: middle;
+      margin-right: $space-base * 2;
+
+      &:last-child {
+        margin-right: $space-none;
+      }
+    }
+    .form-control {
+      display: inline-block;
+      width: auto; // Prevent labels from stacking above inputs in `form-group`
+      vertical-align: middle;
+    }
+
+    .input-group {
+      display: inline-table;
+      vertical-align: middle;
+
+      .input-group-addon,
+      .input-group-btn,
+      .form-control {
+        width: auto;
+      }
+    }
+
+    // Input groups need that 100% width though
+    .input-group > .form-control {
+      width: 100%;
+    }
+
+    .form-control-label {
+      margin-bottom: 0;
+      vertical-align: middle;
+    }
+
+    // Remove default margin on radios/checkboxes that were used for stacking, and
+    // then undo the floating of radios and checkboxes to match.
+    .radio,
+    .checkbox {
+      display: inline-block;
+      margin-top: 0;
+      margin-bottom: 0;
+      vertical-align: middle;
+
+      label {
+        padding-left: 0;
+      }
+    }
+    .radio input[type="radio"],
+    .checkbox input[type="checkbox"] {
+      position: relative;
+      margin-left: 0;
+    }
+  }
+}

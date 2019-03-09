@@ -1,0 +1,151 @@
+/*!
+ * ricenoodle v1.1.0
+ */
+/* line 5, ../../scss/_elf.scss */
+.elf {
+  display: inline-block;
+  position: relative;
+}
+
+/* line 3, ../../scss/mixins/_elf.scss */
+.elf-primary:after, .elf-primary-prev:before, .elf-secondary:after, .elf-secondary-prev:before, .elf-success:after, .elf-success-prev:before, .elf-info:after, .elf-info-prev:before, .elf-warning:after, .elf-warning-prev:before, .elf-danger:after, .elf-danger-prev:before, .elf-white:after, .elf-white-prev:before, .elf-light:after, .elf-light-prev:before, .elf-muted:after, .elf-muted-prev:before, .elf-dark:after, .elf-dark-prev:before, .elf-black:after, .elf-black-prev:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 4px;
+  width: 0.3125rem;
+  height: 0.3125rem;
+  border-radius: 625rem;
+}
+
+/* line 14, ../../scss/mixins/_elf.scss */
+.elf-primary:after {
+  right: -10px;
+  background-color: #007bff !important;
+}
+
+/* line 20, ../../scss/mixins/_elf.scss */
+.elf-primary-prev:before {
+  left: -10px;
+  background-color: #007bff !important;
+}
+
+/* line 14, ../../scss/mixins/_elf.scss */
+.elf-secondary:after {
+  right: -10px;
+  background-color: #375A7F !important;
+}
+
+/* line 20, ../../scss/mixins/_elf.scss */
+.elf-secondary-prev:before {
+  left: -10px;
+  background-color: #375A7F !important;
+}
+
+/* line 14, ../../scss/mixins/_elf.scss */
+.elf-success:after {
+  right: -10px;
+  background-color: #2EC6A0 !important;
+}
+
+/* line 20, ../../scss/mixins/_elf.scss */
+.elf-success-prev:before {
+  left: -10px;
+  background-color: #2EC6A0 !important;
+}
+
+/* line 14, ../../scss/mixins/_elf.scss */
+.elf-info:after {
+  right: -10px;
+  background-color: #14adea !important;
+}
+
+/* line 20, ../../scss/mixins/_elf.scss */
+.elf-info-prev:before {
+  left: -10px;
+  background-color: #14adea !important;
+}
+
+/* line 14, ../../scss/mixins/_elf.scss */
+.elf-warning:after {
+  right: -10px;
+  background-color: #ffc107 !important;
+}
+
+/* line 20, ../../scss/mixins/_elf.scss */
+.elf-warning-prev:before {
+  left: -10px;
+  background-color: #ffc107 !important;
+}
+
+/* line 14, ../../scss/mixins/_elf.scss */
+.elf-danger:after {
+  right: -10px;
+  background-color: #dc3545 !important;
+}
+
+/* line 20, ../../scss/mixins/_elf.scss */
+.elf-danger-prev:before {
+  left: -10px;
+  background-color: #dc3545 !important;
+}
+
+/* line 14, ../../scss/mixins/_elf.scss */
+.elf-white:after {
+  right: -10px;
+  background-color: #fff !important;
+}
+
+/* line 20, ../../scss/mixins/_elf.scss */
+.elf-white-prev:before {
+  left: -10px;
+  background-color: #fff !important;
+}
+
+/* line 14, ../../scss/mixins/_elf.scss */
+.elf-light:after {
+  right: -10px;
+  background-color: #dee2e6 !important;
+}
+
+/* line 20, ../../scss/mixins/_elf.scss */
+.elf-light-prev:before {
+  left: -10px;
+  background-color: #dee2e6 !important;
+}
+
+/* line 14, ../../scss/mixins/_elf.scss */
+.elf-muted:after {
+  right: -10px;
+  background-color: #6c757d !important;
+}
+
+/* line 20, ../../scss/mixins/_elf.scss */
+.elf-muted-prev:before {
+  left: -10px;
+  background-color: #6c757d !important;
+}
+
+/* line 14, ../../scss/mixins/_elf.scss */
+.elf-dark:after {
+  right: -10px;
+  background-color: #212529 !important;
+}
+
+/* line 20, ../../scss/mixins/_elf.scss */
+.elf-dark-prev:before {
+  left: -10px;
+  background-color: #212529 !important;
+}
+
+/* line 14, ../../scss/mixins/_elf.scss */
+.elf-black:after {
+  right: -10px;
+  background-color: #000 !important;
+}
+
+/* line 20, ../../scss/mixins/_elf.scss */
+.elf-black-prev:before {
+  left: -10px;
+  background-color: #000 !important;
+}

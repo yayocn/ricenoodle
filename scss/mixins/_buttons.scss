@@ -44,11 +44,11 @@
   }
 }
 
-@mixin button-outline-variant($color) {
-  color: $color;
+@mixin button-outline-variant($color, $bg) {
+  color: $bg;
   background-image: none;
   background-color: transparent;
-  border-color: $color;
+  border-color: $bg;
 
   &:focus,
   &.focus,
@@ -56,14 +56,14 @@
   &.active,
   .open > &.dropdown-toggle {
     color: #fff;
-    background-color: $color;
-    border-color: $color;
+    background-color: $bg;
+    border-color: $bg;
     outline: 0;
   }
   @include hover {
     color: #fff;
-    background-color: $color;
-    border-color: $color;
+    background-color: $bg;
+    border-color: $bg;
   }
 
   &:active,
@@ -78,10 +78,10 @@
   fieldset[disabled] & {
     &:focus,
     &.focus {
-      border-color: lighten($color, 20%);
+      border-color: lighten($bg, 20%);
     }
     @include hover {
-      border-color: lighten($color, 20%);
+      border-color: lighten($bg, 20%);
     }
   }
 }

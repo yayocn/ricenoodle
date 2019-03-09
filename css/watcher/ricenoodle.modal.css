@@ -1,0 +1,171 @@
+/*!
+ * ricenoodle v1.1.0
+ */
+/* line 8, ../../scss/_modal.scss */
+.modal-open {
+  overflow: hidden;
+}
+
+/* line 13, ../../scss/_modal.scss */
+.modal {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1050;
+  display: none;
+  overflow: hidden;
+  outline: 0;
+}
+/* line 28, ../../scss/_modal.scss */
+.modal-open .modal {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+/* line 35, ../../scss/_modal.scss */
+.modal-dialog {
+  position: relative;
+  width: auto;
+  margin: 0.5rem;
+  pointer-events: none;
+}
+/* line 43, ../../scss/_modal.scss */
+.modal.fade .modal-dialog {
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+  transform: translate(0, -25%);
+}
+/* line 47, ../../scss/_modal.scss */
+.modal.show .modal-dialog {
+  transform: translate(0, 0);
+}
+
+/* line 52, ../../scss/_modal.scss */
+.modal-dialog-centered {
+  display: flex;
+  align-items: center;
+  min-height: calc(100% - (0.5rem * 2));
+}
+
+/* line 59, ../../scss/_modal.scss */
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  pointer-events: auto;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.5);
+  outline: 0;
+}
+
+/* line 75, ../../scss/_modal.scss */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+}
+/* line 85, ../../scss/_modal.scss */
+.modal-backdrop.fade {
+  opacity: 0;
+}
+/* line 86, ../../scss/_modal.scss */
+.modal-backdrop.show {
+  opacity: 0.5;
+}
+
+/* line 91, ../../scss/_modal.scss */
+.modal-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+/* line 98, ../../scss/_modal.scss */
+.modal-header .close {
+  padding: 1rem;
+  margin: -1rem -1rem -1rem auto;
+}
+
+/* line 106, ../../scss/_modal.scss */
+.modal-title {
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+/* line 113, ../../scss/_modal.scss */
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1rem;
+}
+
+/* line 122, ../../scss/_modal.scss */
+.modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+/* line 130, ../../scss/_modal.scss */
+.modal-footer > :not(:first-child) {
+  margin-left: .25rem;
+}
+/* line 131, ../../scss/_modal.scss */
+.modal-footer > :not(:last-child) {
+  margin-right: .25rem;
+}
+
+/* line 135, ../../scss/_modal.scss */
+.modal-scrollbar-measure {
+  position: absolute;
+  top: -9999px;
+  width: 50px;
+  height: 50px;
+  overflow: scroll;
+}
+
+@media (min-width: 576px) {
+  /* line 146, ../../scss/_modal.scss */
+  .modal-dialog {
+    max-width: 500px;
+    margin: 1.75rem auto;
+  }
+
+  /* line 151, ../../scss/_modal.scss */
+  .modal-dialog-centered {
+    min-height: calc(100% - (1.75rem * 2));
+  }
+
+  /* line 155, ../../scss/_modal.scss */
+  .modal-content {
+    -moz-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
+  }
+
+  /* line 159, ../../scss/_modal.scss */
+  .modal-sm {
+    max-width: 300px;
+  }
+}
+@media (min-width: 992px) {
+  /* line 164, ../../scss/_modal.scss */
+  .modal-lg {
+    max-width: 800px;
+  }
+}

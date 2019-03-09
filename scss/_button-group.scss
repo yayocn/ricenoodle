@@ -34,12 +34,9 @@
 }
 
 .btn-group {
-  @include btn-group-brand-border('.btn-primary', $brand-primary);
-  @include btn-group-brand-border('.btn-secondary', $brand-secondary);
-  @include btn-group-brand-border('.btn-info', $brand-info);
-  @include btn-group-brand-border('.btn-success', $brand-success);
-  @include btn-group-brand-border('.btn-warning', $brand-warning);
-  @include btn-group-brand-border('.btn-danger', $brand-danger);
+  @each $name, $value in $theme-colors {
+    @include btn-group-brand-border('.btn-#{$name}', $value);
+  }
 }
 
 // Clear up double borders
@@ -124,10 +121,10 @@
 //
 //
 .btn-group-sm .btn {
-  @extend .btn-sm;
+  @include button-size($btn-padding-y-sm, $btn-padding-x-sm, $font-size-xs, $line-height-sm);
 }
 .btn-group-lg .btn {
-  @extend .btn-lg;
+  @include button-size($btn-padding-y-lg, $btn-padding-x-lg, $font-size-lg, $line-height-lg);
 }
 
 

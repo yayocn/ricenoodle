@@ -1,0 +1,45 @@
+/*!
+ * ricenoodle v1.1.0
+ */
+/* line 5, ../../scss/_transition.scss */
+.fade {
+  opacity: 0;
+  -moz-transition: opacity 0.15s linear;
+  -o-transition: opacity 0.15s linear;
+  -webkit-transition: opacity 0.15s linear;
+  transition: opacity 0.15s linear;
+}
+/* line 9, ../../scss/_transition.scss */
+.fade.show {
+  opacity: 1;
+}
+
+/* line 14, ../../scss/_transition.scss */
+.collapse {
+  display: none;
+}
+/* line 16, ../../scss/_transition.scss */
+.collapse.show {
+  display: block;
+}
+
+/* line 22, ../../scss/_transition.scss */
+tr.collapse.show {
+  display: table-row;
+}
+
+/* line 28, ../../scss/_transition.scss */
+tbody.collapse.show {
+  display: table-row-group;
+}
+
+/* line 33, ../../scss/_transition.scss */
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  -webkit-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
