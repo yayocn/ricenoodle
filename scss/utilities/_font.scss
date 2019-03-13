@@ -11,11 +11,11 @@
     font-size: $multiple * $font-size-base !important;
   }
 
-  .font-vh-#{$multiple} {
+  .font-vh-#{$multiple * 10} {
     font-size: $multiple * 10vh !important;
   }
 
-  .font-vw-#{$multiple} {
+  .font-vw-#{$multiple * 10} {
     font-size: $multiple * 10vw !important;
   }
 }

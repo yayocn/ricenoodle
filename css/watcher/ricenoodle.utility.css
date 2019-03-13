@@ -190,54 +190,254 @@
   border-style: solid !important;
 }
 
-/* line 73, ../../scss/utilities/_border.scss */
+/* line 74, ../../scss/utilities/_border.scss */
 .border-1 {
   border-width: 1px !important;
 }
 
-/* line 73, ../../scss/utilities/_border.scss */
+/* line 79, ../../scss/utilities/_border.scss */
+.border-top-1 {
+  border-top-width: 1px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-right-1 {
+  border-right-width: 1px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-bottom-1 {
+  border-bottom-width: 1px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-left-1 {
+  border-left-width: 1px !important;
+}
+
+/* line 74, ../../scss/utilities/_border.scss */
 .border-2 {
   border-width: 2px !important;
 }
 
-/* line 73, ../../scss/utilities/_border.scss */
+/* line 79, ../../scss/utilities/_border.scss */
+.border-top-2 {
+  border-top-width: 2px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-right-2 {
+  border-right-width: 2px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-bottom-2 {
+  border-bottom-width: 2px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-left-2 {
+  border-left-width: 2px !important;
+}
+
+/* line 74, ../../scss/utilities/_border.scss */
 .border-3 {
   border-width: 3px !important;
 }
 
-/* line 73, ../../scss/utilities/_border.scss */
+/* line 79, ../../scss/utilities/_border.scss */
+.border-top-3 {
+  border-top-width: 3px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-right-3 {
+  border-right-width: 3px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-bottom-3 {
+  border-bottom-width: 3px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-left-3 {
+  border-left-width: 3px !important;
+}
+
+/* line 74, ../../scss/utilities/_border.scss */
 .border-4 {
   border-width: 4px !important;
 }
 
-/* line 73, ../../scss/utilities/_border.scss */
+/* line 79, ../../scss/utilities/_border.scss */
+.border-top-4 {
+  border-top-width: 4px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-right-4 {
+  border-right-width: 4px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-bottom-4 {
+  border-bottom-width: 4px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-left-4 {
+  border-left-width: 4px !important;
+}
+
+/* line 74, ../../scss/utilities/_border.scss */
 .border-5 {
   border-width: 5px !important;
 }
 
-/* line 73, ../../scss/utilities/_border.scss */
+/* line 79, ../../scss/utilities/_border.scss */
+.border-top-5 {
+  border-top-width: 5px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-right-5 {
+  border-right-width: 5px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-bottom-5 {
+  border-bottom-width: 5px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-left-5 {
+  border-left-width: 5px !important;
+}
+
+/* line 74, ../../scss/utilities/_border.scss */
 .border-6 {
   border-width: 6px !important;
 }
 
-/* line 73, ../../scss/utilities/_border.scss */
+/* line 79, ../../scss/utilities/_border.scss */
+.border-top-6 {
+  border-top-width: 6px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-right-6 {
+  border-right-width: 6px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-bottom-6 {
+  border-bottom-width: 6px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-left-6 {
+  border-left-width: 6px !important;
+}
+
+/* line 74, ../../scss/utilities/_border.scss */
 .border-7 {
   border-width: 7px !important;
 }
 
-/* line 73, ../../scss/utilities/_border.scss */
+/* line 79, ../../scss/utilities/_border.scss */
+.border-top-7 {
+  border-top-width: 7px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-right-7 {
+  border-right-width: 7px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-bottom-7 {
+  border-bottom-width: 7px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-left-7 {
+  border-left-width: 7px !important;
+}
+
+/* line 74, ../../scss/utilities/_border.scss */
 .border-8 {
   border-width: 8px !important;
 }
 
-/* line 73, ../../scss/utilities/_border.scss */
+/* line 79, ../../scss/utilities/_border.scss */
+.border-top-8 {
+  border-top-width: 8px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-right-8 {
+  border-right-width: 8px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-bottom-8 {
+  border-bottom-width: 8px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-left-8 {
+  border-left-width: 8px !important;
+}
+
+/* line 74, ../../scss/utilities/_border.scss */
 .border-9 {
   border-width: 9px !important;
 }
 
-/* line 73, ../../scss/utilities/_border.scss */
+/* line 79, ../../scss/utilities/_border.scss */
+.border-top-9 {
+  border-top-width: 9px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-right-9 {
+  border-right-width: 9px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-bottom-9 {
+  border-bottom-width: 9px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-left-9 {
+  border-left-width: 9px !important;
+}
+
+/* line 74, ../../scss/utilities/_border.scss */
 .border-10 {
   border-width: 10px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-top-10 {
+  border-top-width: 10px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-right-10 {
+  border-right-width: 10px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-bottom-10 {
+  border-bottom-width: 10px !important;
+}
+
+/* line 79, ../../scss/utilities/_border.scss */
+.border-left-10 {
+  border-left-width: 10px !important;
 }
 
 /* line 8, ../../scss/utilities/_position.scss */
@@ -8551,12 +8751,12 @@ a.text-black:focus, a.text-black:hover {
 }
 
 /* line 14, ../../scss/utilities/_font.scss */
-.font-vh-1 {
+.font-vh-10 {
   font-size: 10vh !important;
 }
 
 /* line 18, ../../scss/utilities/_font.scss */
-.font-vw-1 {
+.font-vw-10 {
   font-size: 10vw !important;
 }
 
@@ -8566,12 +8766,12 @@ a.text-black:focus, a.text-black:hover {
 }
 
 /* line 14, ../../scss/utilities/_font.scss */
-.font-vh-2 {
+.font-vh-20 {
   font-size: 20vh !important;
 }
 
 /* line 18, ../../scss/utilities/_font.scss */
-.font-vw-2 {
+.font-vw-20 {
   font-size: 20vw !important;
 }
 
@@ -8581,12 +8781,12 @@ a.text-black:focus, a.text-black:hover {
 }
 
 /* line 14, ../../scss/utilities/_font.scss */
-.font-vh-3 {
+.font-vh-30 {
   font-size: 30vh !important;
 }
 
 /* line 18, ../../scss/utilities/_font.scss */
-.font-vw-3 {
+.font-vw-30 {
   font-size: 30vw !important;
 }
 
@@ -8596,12 +8796,12 @@ a.text-black:focus, a.text-black:hover {
 }
 
 /* line 14, ../../scss/utilities/_font.scss */
-.font-vh-4 {
+.font-vh-40 {
   font-size: 40vh !important;
 }
 
 /* line 18, ../../scss/utilities/_font.scss */
-.font-vw-4 {
+.font-vw-40 {
   font-size: 40vw !important;
 }
 
@@ -8611,12 +8811,12 @@ a.text-black:focus, a.text-black:hover {
 }
 
 /* line 14, ../../scss/utilities/_font.scss */
-.font-vh-5 {
+.font-vh-50 {
   font-size: 50vh !important;
 }
 
 /* line 18, ../../scss/utilities/_font.scss */
-.font-vw-5 {
+.font-vw-50 {
   font-size: 50vw !important;
 }
 
@@ -8626,12 +8826,12 @@ a.text-black:focus, a.text-black:hover {
 }
 
 /* line 14, ../../scss/utilities/_font.scss */
-.font-vh-6 {
+.font-vh-60 {
   font-size: 60vh !important;
 }
 
 /* line 18, ../../scss/utilities/_font.scss */
-.font-vw-6 {
+.font-vw-60 {
   font-size: 60vw !important;
 }
 
@@ -8641,12 +8841,12 @@ a.text-black:focus, a.text-black:hover {
 }
 
 /* line 14, ../../scss/utilities/_font.scss */
-.font-vh-7 {
+.font-vh-70 {
   font-size: 70vh !important;
 }
 
 /* line 18, ../../scss/utilities/_font.scss */
-.font-vw-7 {
+.font-vw-70 {
   font-size: 70vw !important;
 }
 
@@ -8656,12 +8856,12 @@ a.text-black:focus, a.text-black:hover {
 }
 
 /* line 14, ../../scss/utilities/_font.scss */
-.font-vh-8 {
+.font-vh-80 {
   font-size: 80vh !important;
 }
 
 /* line 18, ../../scss/utilities/_font.scss */
-.font-vw-8 {
+.font-vw-80 {
   font-size: 80vw !important;
 }
 
@@ -8671,12 +8871,12 @@ a.text-black:focus, a.text-black:hover {
 }
 
 /* line 14, ../../scss/utilities/_font.scss */
-.font-vh-9 {
+.font-vh-90 {
   font-size: 90vh !important;
 }
 
 /* line 18, ../../scss/utilities/_font.scss */
-.font-vw-9 {
+.font-vw-90 {
   font-size: 90vw !important;
 }
 
@@ -8686,12 +8886,12 @@ a.text-black:focus, a.text-black:hover {
 }
 
 /* line 14, ../../scss/utilities/_font.scss */
-.font-vh-10 {
+.font-vh-100 {
   font-size: 100vh !important;
 }
 
 /* line 18, ../../scss/utilities/_font.scss */
-.font-vw-10 {
+.font-vw-100 {
   font-size: 100vw !important;
 }
 
@@ -9715,6 +9915,166 @@ a.text-black:focus, a.text-black:hover {
 .align-self-stretch {
   -webkit-align-self: stretch !important;
   align-self: stretch !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-0 {
+  order: 0 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-1 {
+  order: 1 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-2 {
+  order: 2 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-3 {
+  order: 3 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-4 {
+  order: 4 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-5 {
+  order: 5 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-6 {
+  order: 6 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-7 {
+  order: 7 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-8 {
+  order: 8 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-9 {
+  order: 9 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-10 {
+  order: 10 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-11 {
+  order: 11 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-12 {
+  order: 12 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-13 {
+  order: 13 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-14 {
+  order: 14 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-15 {
+  order: 15 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-16 {
+  order: 16 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-17 {
+  order: 17 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-18 {
+  order: 18 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-19 {
+  order: 19 !important;
+}
+
+/* line 40, ../../scss/utilities/_flex.scss */
+.order-20 {
+  order: 20 !important;
+}
+
+/* line 46, ../../scss/utilities/_flex.scss */
+.flex-grow-0 {
+  flex-grow: 0 !important;
+}
+
+/* line 46, ../../scss/utilities/_flex.scss */
+.flex-grow-1 {
+  flex-grow: 1 !important;
+}
+
+/* line 46, ../../scss/utilities/_flex.scss */
+.flex-grow-2 {
+  flex-grow: 2 !important;
+}
+
+/* line 46, ../../scss/utilities/_flex.scss */
+.flex-grow-3 {
+  flex-grow: 3 !important;
+}
+
+/* line 46, ../../scss/utilities/_flex.scss */
+.flex-grow-4 {
+  flex-grow: 4 !important;
+}
+
+/* line 46, ../../scss/utilities/_flex.scss */
+.flex-grow-5 {
+  flex-grow: 5 !important;
+}
+
+/* line 46, ../../scss/utilities/_flex.scss */
+.flex-grow-6 {
+  flex-grow: 6 !important;
+}
+
+/* line 46, ../../scss/utilities/_flex.scss */
+.flex-grow-7 {
+  flex-grow: 7 !important;
+}
+
+/* line 46, ../../scss/utilities/_flex.scss */
+.flex-grow-8 {
+  flex-grow: 8 !important;
+}
+
+/* line 46, ../../scss/utilities/_flex.scss */
+.flex-grow-9 {
+  flex-grow: 9 !important;
+}
+
+/* line 46, ../../scss/utilities/_flex.scss */
+.flex-grow-10 {
+  flex-grow: 10 !important;
 }
 
 /* line 4, ../../scss/utilities/_close.scss */
