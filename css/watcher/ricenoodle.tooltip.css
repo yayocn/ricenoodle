@@ -69,46 +69,46 @@
   width: 0.25rem;
   height: 0.5rem;
 }
-/* line 54, ../../scss/_tooltip.scss */
+/* line 56, ../../scss/_tooltip.scss */
 .ui-tooltip-right .arrow::before, .ui-tooltip-auto[x-placement^="right"] .arrow::before {
   right: 0;
   border-width: 0.25rem 0.25rem 0.25rem 0;
   border-right-color: #000;
 }
 
-/* line 62, ../../scss/_tooltip.scss */
+/* line 64, ../../scss/_tooltip.scss */
 .ui-tooltip-bottom, .ui-tooltip-auto[x-placement^="bottom"] {
   padding: 0.25rem 0;
 }
-/* line 65, ../../scss/_tooltip.scss */
+/* line 67, ../../scss/_tooltip.scss */
 .ui-tooltip-bottom .arrow, .ui-tooltip-auto[x-placement^="bottom"] .arrow {
   top: 0;
 }
-/* line 68, ../../scss/_tooltip.scss */
+/* line 70, ../../scss/_tooltip.scss */
 .ui-tooltip-bottom .arrow::before, .ui-tooltip-auto[x-placement^="bottom"] .arrow::before {
   bottom: 0;
   border-width: 0 0.25rem 0.25rem;
   border-bottom-color: #000;
 }
 
-/* line 76, ../../scss/_tooltip.scss */
+/* line 78, ../../scss/_tooltip.scss */
 .ui-tooltip-left, .ui-tooltip-auto[x-placement^="left"] {
   padding: 0 0.25rem;
 }
-/* line 79, ../../scss/_tooltip.scss */
+/* line 81, ../../scss/_tooltip.scss */
 .ui-tooltip-left .arrow, .ui-tooltip-auto[x-placement^="left"] .arrow {
   right: 0;
   width: 0.25rem;
   height: 0.5rem;
 }
-/* line 84, ../../scss/_tooltip.scss */
+/* line 86, ../../scss/_tooltip.scss */
 .ui-tooltip-left .arrow::before, .ui-tooltip-auto[x-placement^="left"] .arrow::before {
   left: 0;
   border-width: 0.25rem 0 0.25rem 0.25rem;
   border-left-color: #000;
 }
 
-/* line 108, ../../scss/_tooltip.scss */
+/* line 110, ../../scss/_tooltip.scss */
 .tooltip-inner {
   max-width: 200px;
   padding: 0.15625rem 0.3125rem;
