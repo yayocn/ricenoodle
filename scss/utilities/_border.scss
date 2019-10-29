@@ -68,9 +68,16 @@ $style-list: (
   }
 }
 
+$directions: (top, right, bottom, left);
 // Size
 @for $i from 1 through 10 {
   .border-#{$i} {
     border-width: #{$i}px !important;
+  }
+
+  @each $dir in $directions {
+    .border-#{$dir}-#{$i} {
+      border-#{$dir}-width: $i * 1px !important;
+    }
   }
 }

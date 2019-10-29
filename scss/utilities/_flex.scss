@@ -35,3 +35,15 @@
 .align-self-center   { @include align-self(center !important) }
 .align-self-baseline { @include align-self(baseline !important) }
 .align-self-stretch  { @include align-self(stretch !important) }
+
+@for $order from 0 through 20 {
+  .order-#{$order} {
+    order: $order !important;
+  }
+}
+
+@for $grow from 0 through 10 {
+  .flex-grow-#{$grow} {
+    flex-grow: $grow !important;
+  }
+}
