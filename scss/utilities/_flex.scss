@@ -43,7 +43,7 @@
 }
 
 @for $grow from 0 through 10 {
-  .flex-grow-#{$grow} {
+  .grow-#{$grow} {
     flex-grow: $grow !important;
   }
 }
